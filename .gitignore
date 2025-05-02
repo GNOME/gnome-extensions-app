@@ -1,0 +1,8 @@
+*~
+*.sw?
+*.pot
+.buildconfig
+.eslintcache
+.flatpak-builder
+.vscode
+subprojects/libshew

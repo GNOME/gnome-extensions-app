@@ -26,7 +26,13 @@ configure_file(
   install_dir: pkgdatadir,
 )
 
-subdir('misc')
+configure_file(
+  input: 'config.js.in',
+  output: '@BASENAME@',
+  configuration: {
+    'PROFILE': get_option('profile'),
+  }
+)
 
 gnome.compile_resources(
   app_id + '.src',

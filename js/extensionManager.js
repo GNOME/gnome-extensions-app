@@ -4,7 +4,7 @@ import GObject from 'gi://GObject';
 
 import {
     ExtensionState, ExtensionType, deserializeExtension,
-}  from './misc/extensionUtils.js';
+}  from './extensionUtils.js';
 
 const GnomeShellIface = loadInterfaceXML('org.gnome.Shell.Extensions');
 const GnomeShellProxy = Gio.DBusProxy.makeProxyWrapper(GnomeShellIface);

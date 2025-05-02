@@ -7,7 +7,7 @@ import Shew from 'gi://Shew';
 const Package = imports.package;
 import * as Gettext from 'gettext';
 
-import * as Config from './misc/config.js';
+import * as Config from './config.js';
 import {ExtensionRow} from './extensionRow.js';
 
 Gio._promisify(Adw.AlertDialog.prototype, 'choose');

@@ -2,7 +2,7 @@ import Adw from 'gi://Adw?version=1';
 import Gio from 'gi://Gio';
 import GObject from 'gi://GObject';
 
-import {ExtensionState}  from './misc/extensionUtils.js';
+import {ExtensionState}  from './extensionUtils.js';
 import {Extension} from './extensionManager.js';
 
 export const ExtensionRow = GObject.registerClass({

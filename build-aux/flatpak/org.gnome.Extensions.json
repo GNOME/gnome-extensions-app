@@ -20,24 +20,17 @@
       "name": "gnome-extensions-app",
       "buildsystem": "meson",
       "builddir": true,
-      "subdir": "subprojects/extensions-app",
       "config-opts": ["-Dprofile=development"],
       "sources": [
         {
           "type": "dir",
-          "path": "../../../.."
+          "path": "../.."
         },
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/libshew.git",
-          "dest": "subprojects/extensions-app/subprojects/libshew",
+          "dest": "subprojects/libshew",
           "branch": "main"
-        },
-        {
-          "type": "shell",
-          "commands": [
-              "subprojects/extensions-app/generate-translations.sh"
-          ]
         }
       ]
     }

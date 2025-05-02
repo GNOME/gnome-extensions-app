@@ -1,0 +1,8 @@
+data/metainfo/org.gnome.Extensions.metainfo.xml.in
+data/org.gnome.Extensions.desktop.in.in
+js/extensionManager.js
+js/extensionRow.js
+js/extensionsWindow.js
+data/ui/extension-row.ui
+data/ui/extensions-window.ui
+data/ui/help-overlay.ui

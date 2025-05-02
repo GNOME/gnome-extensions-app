@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+SPDX-FileCopyrightText: Florian Müllner <fmuellner@gnome.org>
+
+SPDX-License-Identifier: GPL-2.0-or-later
+-->
+
 <gresources>
   <gresource prefix="/org/gnome/Extensions@profile@">
     <file alias="style.css">css/style.css</file>

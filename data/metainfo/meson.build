@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: Florian Müllner <fmuellner@gnome.org>
+# SPDX-FileCopyrightText: Florian Müllner <fmuellner@gnome.org>
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 metainfoconf = configuration_data()
 metainfoconf.set('app_id', app_id)
 metainfoconf.set('package_name', package_name)

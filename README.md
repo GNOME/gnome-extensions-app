@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: Florian Müllner <fmuellner@gnome.org>
+SPDX-FileCopyrightText: Martin Zurowietz <martin@zurowietz.de>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # ![logo] GNOME Extensions
 GNOME Extensions is a small app for managing GNOME Shell
 extensions. It is usually built as part of gnome-shell, but can be

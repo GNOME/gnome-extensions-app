@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2019 Florian Müllner <fmuellner@gnome.org>
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 option('package_name',
   type: 'string',
   description: 'The gettext domain name',

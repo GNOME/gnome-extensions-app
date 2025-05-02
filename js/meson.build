@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: Florian Müllner <fmuellner@gnome.org>
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 launcherconf = configuration_data()
 launcherconf.set('app_id', app_id)
 launcherconf.set('PACKAGE_NAME', package_name)

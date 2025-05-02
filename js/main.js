@@ -1,3 +1,13 @@
+// SPDX-FileCopyrightText: Jasper St. Pierre <jstpierre@mecheye.net>
+// SPDX-FileCopyrightText: Florian Müllner <fmuellner@gnome.org>
+// SPDX-FileCopyrightText: Didier Roche <didrocks@ubuntu.com>
+// SPDX-FileCopyrightText: Jonas Dreßler <verdre@v0yd.nl>
+// SPDX-FileCopyrightText: Marco Trevisan <mail@3v1n0.net>
+// SPDX-FileCopyrightText: Christopher Davis <christopherdavis@gnome.org>
+// SPDX-FileCopyrightText: Balló György <ballogyor@gmail.com>
+//
+// SPDX-License-Identifier: GPL-2.0-or-later
+
 import Adw from 'gi://Adw?version=1';
 import GLib from 'gi://GLib';
 import GObject from 'gi://GObject';

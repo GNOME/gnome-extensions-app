@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+SPDX-FileCopyrightText: Florian Müllner <fmuellner@gnome.org>
+SPDX-FileCopyrightText: Romain Vigier <romain@romainvigier.fr>
+SPDX-FileCopyrightText: Christopher Davis <christopherdavis@gnome.org>
+SPDX-FileCopyrightText: Automeris naranja <automerisnaranja@tutanota.com>
+
+SPDX-License-Identifier: GPL-2.0-or-later
+-->
+
 <interface>
   <menu id="primary-menu">
     <section>

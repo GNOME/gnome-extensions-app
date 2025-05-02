@@ -1,3 +1,12 @@
+// SPDX-FileCopyrightText: Jasper St. Pierre <jstpierre@mecheye.net>
+// SPDX-FileCopyrightText: Florian Müllner <fmuellner@gnome.org>
+// SPDX-FileCopyrightText: Philip Chimento <philip.chimento@gmail.com>
+// SPDX-FileCopyrightText: Jonh Wendell <jonh.wendell@redhat.com>
+// SPDX-FileCopyrightText: Didier Roche <didrocks@ubuntu.com>
+// SPDX-FileCopyrightText: Evan Welsh <contact@evanwelsh.com>
+//
+// SPDX-License-Identifier: GPL-2.0-or-later
+
 // Common utils for the extension system, the extensions D-Bus service
 // and the Extensions app
 

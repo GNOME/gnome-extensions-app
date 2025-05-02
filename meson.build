@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: Florian Müllner <fmuellner@gnome.org>
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 project('gnome-extensions-app',
   version: '50.1',
   meson_version: '>= 0.58.0',

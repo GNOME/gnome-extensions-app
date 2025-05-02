@@ -1,0 +1,48 @@
+# SPDX-FileCopyrightText: Florian Müllner <fmuellner@gnome.org>
+# SPDX-License-Identifier: CC0-1.0
+version = 1
+SPDX-PackageName = "gnome-extensions-app"
+SPDX-PackageDownloadLocation = "https://gitlab.gnome.org/GNOME/gnome-extensions-app"
+
+[[annotations]]
+path = "NEWS"
+SPDX-FileCopyrightText = "Florian Müllner <fmuellner@gnome.org>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = ["**.service.in", "**.desktop.in.in"]
+SPDX-FileCopyrightText = "Florian Müllner <fmuellner@gnome.org>"
+SPDX-License-Identifier = "GPL-2.0-or-later"
+
+[[annotations]]
+# managed by translation teams
+path = "po/**.po"
+SPDX-FileCopyrightText = "GNOME Translation Teams <i18n@gnome.org>"
+SPDX-License-Identifier = "GPL-2.0-or-later"
+
+[[annotations]]
+# managed by translation teams
+path = ["po/LINGUAS", "po/POTFILES.in"]
+SPDX-FileCopyrightText = "GNOME Translation Teams <i18n@gnome.org>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+# screenshots
+path = "data/metainfo/**.png"
+SPDX-FileCopyrightText = "No rights reserved"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "build-aux/flatpak/org.gnome.Extensions.json"
+SPDX-FileCopyrightText = "No rights reserved"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "tools/package.json"
+SPDX-FileCopyrightText = "Florian Müllner"
+SPDX-License-Identifier = "GPL-2.0-or-later"
+
+[[annotations]]
+path = "**/package-lock.json"
+SPDX-FileCopyrightText = "No rights reserved"
+SPDX-License-Identifier = "CC0-1.0"

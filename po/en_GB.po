@@ -1,0 +1,283 @@
+# British English translation for gnome-extensions-app.
+# Copyright (C) 2009 gnome-extensions-app's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Philip Withnall <philip@tecnocode.co.uk>, 2009, 2010, 2014.
+# Chris Leonard <cjlhomeaddress@gmail.com>, 2012.
+# Zander Brown <zbrown@gnome.org>, 2019-2021.
+# Andi Chandler <andi@gowling.com>, 2024.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2010-2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-03-08 16:55+0000\n"
+"Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
+"Language-Team: British English <en@li.org>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 49.0\n"
+"X-Project-Style: gnome\n"
+"X-DL-Team: en_GB\n"
+"X-DL-Module: gnome-extensions-app\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: Translating\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Extensions"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Manage your GNOME Extensions"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "The GNOME Project"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Main Window"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Available Updates"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Search View"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Configure GNOME Shell Extensions"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Error details:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Remove “%s”?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Cancel"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Remove"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Philip Withnall <philip@tecnocode.co.uk>\n"
+"Bruce Cowan <bruce@bcowan.me.uk>\n"
+"Chris Leonard <cjl@laptop.org>\n"
+"David King <amigadave@amigadave.com>\n"
+"Zander Brown <zbrown@gnome.org>\n"
+"Andi Chandler <andi@gowling.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d extension will be updated on next login."
+msgstr[1] "%d extensions will be updated on next login."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Error Details"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Updates Details"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"A new version of this extension is ready and will be loaded on next login."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Extension Details"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Website"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Settings"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Remove…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Keyboard Shortcuts"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "About Extensions"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Main Menu"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Search"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Search extensions"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Log Out…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Extensions"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "More Information"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "User Extensions"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "System Extensions"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Search Results"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "No Results Found"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Try a different search"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "No Installed Extensions"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Something’s gone wrong"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "General"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Open Menu"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Toggle Search"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Show Shortcuts"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Quit"

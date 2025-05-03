@@ -1,0 +1,274 @@
+# Norwegian Nynorsk translation for gnome-extensions-app.
+# Copyright (C) 2010 gnome-extensions-app's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+# Torstein Winterseth <kvikende@fsfe.org>, 2010.
+# Andreas N. <gedemiti@gmail.com>, 2011.
+# Åsmund Skjæveland <aasmunds@ulrik.uio.no>, 2011.
+# Kjartan Maraas <kmaraas@gnome.org>, 2012.
+# Bjørn Mørkedal <gnome@morkedal.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-03-31 08:35+0200\n"
+"Last-Translator: Bjørn Mørkedal <gnome@morkedal.com>\n"
+"Language-Team: Norwegian Nynorsk <nn@li.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Norwegian Nynorsk\n"
+"X-Poedit-Country: NORWAY\n"
+"X-Generator: Gtranslator 50.0\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Utvidingar"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Handter GNOME-utvidingar"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "GNOME-prosjektet"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"GNOME-utvidingar handterer oppdatering av utvidingar, oppsett av "
+"innstillingar og fjerning eller deaktivering av uønskte utvidingar."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Hovudvindauge"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Tilgjengelege oppdateringar"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Søkjevising"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Set opp GNOME Shell-utvidingar"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Den installerte versjonen av denne utvidinga (%s) er ikkje kompatibel med "
+"den gjeldande versjonen av GNOME (%s). Utvidinga er slått av."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Den installerte versjonen av denne utvidinga er ikkje kompatibel med den "
+"gjeldande versjonen av GNOME (%s). Utvidinga er slått av."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Det har oppstått ein feil i denne utvidinga. Dette kan føra til problem "
+"andre stader i systemet. Det er tilrådd å slå av utvidinga til feilen er "
+"løyst."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Feildetaljar:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Versjon %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Fjerna «%s»?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Viss du fjernar utvidinga, må du lasta ho ned på nytt om du vil slå ho på "
+"igjen"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Fjern"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr "Bjørn Mørkedal"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d utviding vert oppdatert ved neste innlogging."
+msgstr[1] "%d utvidingar vert oppdatert ved neste innlogging."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Feildetaljar"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Detaljar om oppdateringar"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Ein ny versjon av denne utvidinga er klar og vert lasta ved neste innlogging."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Detaljar om utviding"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Nettstad"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Innstillingar"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Fjern …"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Tastatursnarvegar"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Om utvidingar"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Hovudmeny"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Søk"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Søk i utvidingar"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Logg ut …"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Utvidingar"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Meir informasjon"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Utvidingar kan føra til ytings- og stabilitetsproblem. Det er tilrådd å slå "
+"av alle utvidingar dersom du opplever problem med systemet."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Brukarutvidingar"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Systemutvidingar"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Søkjeresultat"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Ingen treff"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Prøv eit anna søk"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Ingen installerte utvidingar"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"For å finna og leggja til utvidingar, gå til <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Noko gjekk gale"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Beklagar, men det var ikkje mogleg å henta lista over installerte "
+"utvidingar. Kontroller at du er logga inn i GNOME og prøv igjen."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Generelt"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Opne meny"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Slå av/på søk"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Vis snarvegar"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avslutt"

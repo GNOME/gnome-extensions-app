@@ -1,0 +1,308 @@
+# French translations for gnome-extensions-app package.
+# Copyright (C) 2009-2020 Listed translators
+# This file is distributed under the same license as the gnome-extensions-app package.
+#
+# Mathieu Bridon <bochecha@fedoraproject.org>, 2009.
+# Pablo Martin-Gomez <pablo.martin-gomez@laposte.net>, 2010.
+# Bruno Brouard <annoa.b@gmail.com>, 2011-2012.
+# Cyril Arnaud <cyril dot arnaud at gmail dot com>, 2011.
+# Luc Guillemin <luc.guillemin@gmail.com>, 2011.
+# Luc Pionchon <pionchon.luc@gmail.com>, 2011.
+# Pierre Henry <pierrehenry73@yahoo.fr>, 2012.
+# Mathieu Stumpf <psychoslave@culture-libre.org>, 2013.
+# Alain Lojewski <allomervan@gmail.com>, 2014-2018.
+# Erwan Georget <egeorget@opmbx.org>, 2016.
+# Julien Humbert <julroy67@gmail.com>, 2019.
+# Claude Paroz <claude@2xlibre.net>, 2010-2020.
+# Thibault Martin <mail@thibaultmart.in>, 2020.
+# Guillaume Bernard <associations@guillaume-bernard.fr>, 2021-2024
+# Charles Monzat <charles.monzat@free.fr>, 2016-2022.
+# Alexandre Franke <afranke@gnome.org>, 2012-2022.
+# Irénée THIRION <irenee.thirion@e.email>, 2022-2023.
+# Vincent Chatelain <vinchatl_gnome@proton.me>, 2024.
+# Jean-Marc Tissières <jmetissieres@gmail.com>, 2023-2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master fr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-02-01 16:42+0100\n"
+"Last-Translator: Jean-Marc Tissières <jmetissieres@gmail.com>\n"
+"Language-Team: French <gnomefr@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 49.0\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Extensions"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Gérer vos extensions GNOME"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Le projet GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"Extensions de GNOME gère la mise à jour des extensions, la configuration des "
+"préférences des extensions et la suppression ou la désactivation des "
+"extensions non désirées."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Fenêtre principale"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Mises à jour disponibles"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Vue de la recherche"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Configurer les extensions Shell de GNOME"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"La version installée de cette extension (%s) est incompatible avec la "
+"version actuelle de GNOME (%s). L’extension a été désactivée."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"La version installée de cette extension est incompatible avec la version "
+"actuelle de GNOME (%s). L’extension a été désactivée."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Une erreur est survenue avec cette extension. Cela pourrait causer des "
+"problèmes ailleurs sur le système. Il est recommandé de désactiver cette "
+"extension jusqu’à ce que l’erreur soit résolue."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Détails de l’erreur :"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Enlever « %s » ?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Si vous enlevez cette extension, vous devrez recommencer son téléchargement "
+"si vous souhaitez la réactiver plus tard"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "A_nnuler"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "En_lever"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Mathieu Bridon <bochecha@fedoraproject.org>\n"
+"Pablo Martin-Gomez <pablo.martin-gomez@laposte.net>\n"
+"Bruno Brouard <annoa.b@gmail.com>\n"
+"Cyril Arnaud <cyril dot arnaud at gmail dot com>\n"
+"Luc Guillemin <luc.guillemin@gmail.com>\n"
+"Luc Pionchon <pionchon.luc@gmail.com>\n"
+"Pierre Henry <pierrehenry73@yahoo.fr>\n"
+"Alexandre Franke <afranke@gnome.org>\n"
+"Mathieu Stumpf <psychoslave@culture-libre.org>\n"
+"Alain Lojewski <allomervan@gmail.com>\n"
+"Erwan Georget <egeorget@opmbx.org>\n"
+"Julien Humbert <julroy67@gmail.com>\n"
+"Claude Paroz <claude@2xlibre.net>\n"
+"Charles Monzat <charles.monzat@free.fr>\n"
+"Thibault Martin <thibaultamartin@gnome.org>\n"
+"Guillaume Bernard <associations@guillaume-bernard.fr>\n"
+"Jean-Marc Tissières <jmetissieres@gmail.com>\n"
+"Irénée Thirion <irenee.thirion@e.email>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d extension sera mise à jour à la prochaine connexion."
+msgstr[1] "%d extensions seront mises à jour à la prochaine connexion."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Détails de l’erreur"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Détails des mises à jour"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Une nouvelle version de cette extension est prête et sera chargée à la "
+"prochaine connexion."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Détails de l’extension"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "Site _web"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Paramètres"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "En_lever…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Raccourcis clavier"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "À propos des extensions"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Recherche"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Rechercher une extension"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Fermer la session…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Extensions"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Davantage d’informations"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Les extensions peuvent entraîner des problèmes de performances et de "
+"stabilité. Il est recommandé de désactiver les extensions si vous rencontrez "
+"des problèmes avec votre système."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Extensions de l’utilisateur"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Extensions du système"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Résultats de la recherche"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Aucun résultat trouvé"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Essayez une recherche différente"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Aucune extension installée"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Pour trouver et ajouter des extensions, visitez <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Quelque chose s’est mal passé"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Nous sommes désolés, mais il n’est pas possible d’obtenir la liste des "
+"extensions installées. Vérifiez que vous êtes bien connecté à GNOME et "
+"essayez encore une fois."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Général"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Ouvrir le menu"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Basculer la recherche"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Afficher les raccourcis"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Quitter"

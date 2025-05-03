@@ -1,0 +1,285 @@
+# Bulgarian translation of gnome-extensions-app po-file.
+# Copyright (C) 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017 Free Software Foundation, Inc.
+# Copyright (C) 2021, 2022, 2023, 2025, 2026 Alexander Shopov.
+# Copyright (C) 2024, 2025 twlvnn kraftwerk.
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Ivaylo Valkov <ivaylo@e-valkov.org>, 2010, 2011, 2012, 2013, 2014.
+# Alexander Shopov <ash@kambanaria.org>, 2012, 2015, 2016, 2017, 2021, 2022, 2023, 2025, 2026.
+# twlvnn kraftwerk <kraft_werk@tutanota.com>, 2024, 2025, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-02-01 10:32+0100\n"
+"Last-Translator: twlvnn kraftwerk <kraft_werk@tutanota.com>\n"
+"Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Разширения"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Управление на разширенията на GNOME"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Проектът GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"С „Разширенията на GNOME“ може да променяте настройките им, да инсталирате "
+"нови, да деинсталирате или изключвате нежеланите разширения."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Основен прозорец"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Налични обновления"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Изглед за търсене"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Настройки на разширенията на обвивката"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Инсталираната версия на разширението (%s) не е съвместима с текущата версия "
+"на GNOME (%s). Разширението е изключено."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Инсталираната версия на разширението не е съвместима с текущата версия на "
+"GNOME (%s). Разширението е изключено."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"В това разширение е възникнала грешка. Това може да доведе до проблеми в "
+"други части на системата. Препоръчително е да изключите разширението, докато "
+"грешката бъде отстранена."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Подробности за грешката:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Версия %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Да се премахне ли „%s“?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Ако премахнете разширение, ще трябва да го изтеглите наново, за да го "
+"включите"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Отказване"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Премахване"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Ивайло Вълков &lt;<a href='mailto:ivaylo@e-valkov.org'>ivaylo@e-valkov.org</"
+"a>&gt;\n"
+"Александър Шопов &lt;<a href='mailto:ash@kambanaria.org'>ash@kambanaria.org</"
+"a>&gt;\n"
+"Twlvnn Kraftwerk &lt;<a "
+"href='mailto:kraft_werk@tutanota.com'>kraft_werk@tutanota.com</a>&gt;\n"
+"\n"
+"\n"
+"Проектът за превод на GNOME има нужда от подкрепа.\n"
+"Научете повече за нас на <a href='https://fsa-bg.org/project/gtp'>уеб сайта</"
+"a> ни.\n"
+"Докладвайте за грешки в превода в <a href='https://fsa-bg.org/project/gtp/"
+"newticket'>съответния раздел</a>."
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "При следващото влизане ще се обнови %d разширение."
+msgstr[1] "При следващото влизане ще се обновят %d разширения."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Подробности за грешката"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Подробности за обновленията"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Готова е нова версия на това разширение и тя ще се зареди при следващото "
+"влизане."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Подробности за разширението"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Уеб сайт"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Настройки"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Премахване…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Клавишни комбинации"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Относно „Разширения“"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Основно меню"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Търсене"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Търсене на разширения"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Изход…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Разширения"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Още информация"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Разширенията понякога създават проблеми с производителността и надеждността. "
+"Препоръчително е да ги изключите, ако се натъкнете на това."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Потребителски разширения"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Системни разширения"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Резултати от търсенето"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Няма намерени съвпадения"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Oпитайте различно търсене"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Не са инсталирани разширения"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"За търсене и добавяне на разширения посетете <a href='https://"
+"extensions.gnome.org'>extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Нещо се обърка"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"За съжаление списъкът с инсталираните разширения не може да се получи. "
+"Влезте наново в GNOME и пробвайте пак."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Общи"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Отваряне на меню"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Превключване на търсенето"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Показване на клавишните комбинации"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Спиране на програмата"

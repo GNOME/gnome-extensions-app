@@ -1,0 +1,275 @@
+# Uzbek (Cyrillic) translation for gnome-extensions-app.
+# Copyright (C) 2014 gnome-extensions-app's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Bahodir Mansurov <6ahodir@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2016-09-25 09:14-0400\n"
+"Last-Translator: Bahodir Mansurov <6ahodir@gmail.com>\n"
+"Language-Team: Uzbek (Cyrillic) <>\n"
+"Language: uz@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-DamnedLies-Scope: partial\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+#, fuzzy
+msgid "Extensions"
+msgstr "GNOME Shell кенгайтмалари"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+#, fuzzy
+msgid "Manage your GNOME Extensions"
+msgstr "GNOME Shell кенгайтмаларини созлаш"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+#, fuzzy
+msgid "Main Window"
+msgstr "Кириш Ойнаси"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+#, fuzzy
+msgid "Search View"
+msgstr "Қидириш"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "GNOME Shell кенгайтмаларини созлаш"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+#, fuzzy
+msgid "Error details:"
+msgstr "Тафсилотларни кўрсатиш"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr ""
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr ""
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+
+#: js/extensionsWindow.js:116
+#, fuzzy
+msgid "_Cancel"
+msgstr "Бекор қилиш"
+
+#: js/extensionsWindow.js:117
+#, fuzzy
+msgid "_Remove"
+msgstr "Олиб ташлаш"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] ""
+
+#: data/ui/extension-row.ui:20
+#, fuzzy
+msgid "Error Details"
+msgstr "Тафсилотларни кўрсатиш"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr ""
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+
+#: data/ui/extension-row.ui:107
+#, fuzzy
+msgid "Extension Details"
+msgstr "Тафсилотларни кўрсатиш"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr ""
+
+#: data/ui/extension-row.ui:222
+#, fuzzy
+msgid "_Settings"
+msgstr "Мосламалар"
+
+#: data/ui/extension-row.ui:249
+#, fuzzy
+msgid "_Remove…"
+msgstr "Олиб ташлаш"
+
+#: data/ui/extensions-window.ui:16
+#, fuzzy
+msgid "Keyboard Shortcuts"
+msgstr "Клавиатура жойлашувини кўрсатиш"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr ""
+
+#: data/ui/extensions-window.ui:74
+#, fuzzy
+msgid "Main Menu"
+msgstr "Панел менюси"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Қидириш"
+
+#: data/ui/extensions-window.ui:116
+#, fuzzy
+msgid "Search extensions"
+msgstr "GNOME Shell кенгайтмалари"
+
+#: data/ui/extensions-window.ui:133
+#, fuzzy
+msgid "_Log Out…"
+msgstr "Сеансни якунлаш"
+
+#: data/ui/extensions-window.ui:141
+#, fuzzy
+msgid "_Extensions"
+msgstr "GNOME Shell кенгайтмалари"
+
+#: data/ui/extensions-window.ui:146
+#, fuzzy
+msgid "More Information"
+msgstr "Система ҳақида ахборот"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+
+#: data/ui/extensions-window.ui:185
+#, fuzzy
+msgid "User Extensions"
+msgstr "GNOME Shell кенгайтмалари"
+
+#: data/ui/extensions-window.ui:194
+#, fuzzy
+msgid "System Extensions"
+msgstr "GNOME Shell кенгайтмалари"
+
+#: data/ui/extensions-window.ui:213
+#, fuzzy
+msgid "Search Results"
+msgstr "Қидириш"
+
+#: data/ui/extensions-window.ui:227
+#, fuzzy
+msgid "No Results Found"
+msgstr "Натижа йўқ."
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr ""
+
+#: data/ui/extensions-window.ui:239
+#, fuzzy
+msgid "No Installed Extensions"
+msgstr "GNOME Shell кенгайтмалари"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr ""
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:16
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Calendarни очиш"
+
+#: data/ui/shortcuts-dialog.ui:22
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Қидириш"
+
+#: data/ui/shortcuts-dialog.ui:28
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Хатоларни кўрсатиш"
+
+#: data/ui/shortcuts-dialog.ui:34
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Чиқиш"

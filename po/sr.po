@@ -1,0 +1,286 @@
+# Serbian translation for gnome-extensions-app.
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2010—2023.
+# Copyright © 2010 gnome-extensions-app's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Translators:
+# Борисав Живановић <borisavzivanovic@gmail.com>, 2017—2018.
+# Марко М. Костић <marko.m.kostic@gmail.com>, 2016-2026.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011–2023.
+# Бранко Грубић <bitlord0xff@gmail.com>, 2024.
+# Милош Поповић <gpopac@gmail.com>, 2010-2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-03-17 13:08+0100\n"
+"Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
+"Language-Team: Serbian <Serbian <gnome-sr@googlegroups.com>>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1: 2;\n"
+"X-Generator: Poedit 3.9\n"
+"X-Project-Style: gnome\n"
+"X-Poedit-Bookmarks: -1,167,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Проширења"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Управљајте Гномовим проширењима"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Пројекат Гном"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"Гномова проширења управљају ажурирањем проширења, подешавањем поставки "
+"проширења и уклањањем или онемогућавањем непожељних проширења."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Главни прозор"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Доступна ажурирања"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Преглед претраге"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Подесите проширења за Гномову шкољку"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Инсталирано издање проширења (%s) није сагласно са тренутним издањем Гнома "
+"(%s). Проширење је онемогућено."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Инсталирано издање проширења није сагласно са тренутним издањем Гнома (%s). "
+"Проширење је онемогућено."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Дошло је до грешке у проширењу. Ово може проузроковати проблеме у остатку "
+"система. Препоручујемо искључивање проширења док грешка не буде решена."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Детаљи грешке:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Издање %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Уклонити „%s“?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Уколико уклоните проширење, мораћете га поново преузети да бисте га поново "
+"омогућили"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Откажи"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Уклони"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Милош Поповић <gpopac@gmail.com>\n"
+"Борисав Живановић <borisavzivanovic@gmail.com>\n"
+"Марко М. Костић <marko.m.kostic@gmail.com>\n"
+"\n"
+"https://гном.срб — превод Гнома на српски језик."
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d проширење биће ажурирано током следећег пријављивања."
+msgstr[1] "%d проширења биће ажурирана током следећег пријављивања."
+msgstr[2] "%d проширења биће ажурирана током следећег пријављивања."
+msgstr[3] "Једно проширење биће ажурирано током следећег пријављивања."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Детаљи грешке"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Детаљи ажурирања"
+
+# msgid_plural "%d extensions will be updated on next login."
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Ново издање овог проширења је спремно и биће учитано при следећем "
+"пријављивању."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Прикажи појединости проширења"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Веб страница"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Подешавања"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Уклони…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Пречице на тастатури"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "О Проширењима"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Главни мени"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Претражи"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Претражи проширења"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Одјави ме…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "П_роширења"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Више информација"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Проширења могу изазвати проблеме са учинком и стабилношћу. Препоручује се да "
+"онемогућите сва проширења уколико искусите проблеме са системом."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Корисникова проширења"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Системска проширења"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Резултати претраге"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Нема резултата"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Покушајте другачију претрагу"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Нема инсталираних проширења"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Да бисте пронашли и додали проширења, посетите <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Нешто је пошло наопако"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Нажалост, није било могуће добавити списак инсталираних проширења. Проверите "
+"да ли сте пријављени у Гном и покушајте поново."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Опште"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Отвори мени"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Укључи претрагу"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Прикажи пречице"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "_Изађи"

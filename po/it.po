@@ -1,0 +1,286 @@
+# Italian translations for gnome-extensions-app package.
+# Copyright (C) 2009, 2010, the gnome-extensions-app copyright holder
+# Copyright (C) 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018 the Free
+# Software Foundation
+# Copyright (C) 2019, 2020, 2021, 2022, 2023, 2024 the Free Software
+# Foundation
+# This file is distributed under the same license as the gnome-extensions-app
+# package.
+#
+# Milo Casagrande <milo@milo.name>, 2009, 2010, 2012, 2013, 2014, 2015,
+# 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024.
+# Luca Ferretti <elle.uca@infinito.it>, 2010, 2011, 2012, 2013, 2014.
+# Gianvito Cavasoli <gianvito@gmx.it>, 2016-2023.
+# Davide Ferracin <davide.ferracin@icloud.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  gnome-extensions-app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-06-07 22:40+0200\n"
+"Last-Translator: Davide Ferracin <davide.ferracin@icloud.com>\n"
+"Language-Team: Italian <gnome-it-list@gnome.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-DL-VCS-Web: https://gitlab.gnome.org/GNOME/gnome-extensions-app/\n"
+"X-DL-Lang: it\n"
+"X-DL-Module: gnome-extensions-app\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: Translating\n"
+"X-Generator: Gtranslator 50.0\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Estensioni"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Gestione delle Estensioni GNOME"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Il progetto GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"Estensioni GNOME gestisce l'aggiornamento e la configurazione delle "
+"preferenze delle estensioni e la rimozione o la disabilitazione di "
+"estensioni indesiderate."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Finestra principale"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Aggiornamenti disponibili"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Vista di ricerca"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Configura le estensioni di GNOME Shell"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"La versione installata di questa estensione (%s) non è compatibile con la "
+"versione attuale di GNOME (%s). Questa estensione è stata disabilitata."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"La versione installata di questa estensione non è compatibile con la "
+"versione attuale di GNOME (%s). Questa estensione è stata disabilitata."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Si è verificato un errore con questa estensione. Ciò potrebbe causare dei "
+"problemi nel sistema: è consigliato disattivare l'estensione finché l'errore "
+"non è risolto."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Dettagli errore:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Versione %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Rimuovere «%s»?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Una volta rimossa l'estensione sarà necessario scaricarla nuovamente per "
+"abilitarla"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "A_nnulla"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Rimuovi"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr "Milo Casagrande <milo@milo.name>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d estensione verrà aggiornata al prossimo accesso."
+msgstr[1] "%d estensioni verranno aggiornate al prossimo accesso."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Dettagli dell'errore"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Dettagli aggiornamenti"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Una nuova versione di questa estensione è pronta e verrà caricata al "
+"prossimo accesso."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Dettagli estensione"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "Sito _web"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "Impostazio_ni"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Rimuovi…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Scorciatoie da tastiera"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Informazioni su Estensioni"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Menù principale"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Cerca"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Crea estensioni"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Termina sessione…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Estensioni"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Maggiori informazioni"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Le estensioni possono causare problemi di prestazioni e stabilità. "
+"Disabilitare le estensioni se si riscontrano problemi con il proprio sistema."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Estensioni utente"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Estensioni di sistema"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Risultati ricerca"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Nessun risultato trovato"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Provare un altro criterio di ricerca"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Nessuna estensione installata"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Per trovare e installare estensioni, visitare il sito web <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Qualcosa è andato storto"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Impossibile recuperare l'elenco delle estensioni installate. Assicurarsi di "
+"aver eseguire l'accesso a GNOME e riprovare."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Generali"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Apre il menù"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Attiva/Disattiva ricerca"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Mostra scorciatoie"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Esce"

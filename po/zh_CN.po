@@ -1,0 +1,293 @@
+# Chinese (China) translation for gnome-extensions-app.
+# Copyright (C) 2010-2021 gnome-extensions-app's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-extensions-app package.
+# jiero <lililjlj@gmail.com>, 2010.
+# Jessica Ban <bancage@gmail.com>, 2010.
+# zhang ping <zhangping159@gmail.com>, 2010.
+# 指冷玉笙寒 (dhyang) <dhyang555@gmail.com>, 2010
+# Ray Wang <raywang@gnome.org>, 2009, 2011.
+# 李炜 <lw124124@gmail.com>, 2011.
+# chiachen <luojiazhen@gmail.com>, 2011.
+# StarBrilliant <m13253@hotmail.com>, 2011
+# YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012.
+# Wylmer Wang <wantinghard@gmail.com>, 2013, 2014.
+# hui <www.eternalhui@gmail.com>, 2013, 2014.
+# mosquito <sensor.wen@gmail.com>, 2014.
+# Tong Hui <tonghuix@gmail.com>, 2013, 2014, 2015.
+# Aron Xu <aronxu@gnome.org>, 2010, 2011, 2012, 2013, 2015, 2016.
+# liushuyu <liushuyu_011@126.com>, 2015, 2016.
+# Mingcong Bai <jeffbai@aosc.xyz>, 2015, 2016, 2017.
+# Dingzhong Chen <wsxy162@gmail.com>, 2018-2021.
+# Liu Tao <lyuutau@outlook.com>, 2021.
+# Nanling <neithern@outlook.com>, 2023.
+# lumingzh <lumingzh@qq.com>, 2022-2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-06-08 10:27+0800\n"
+"Last-Translator: lumingzh <lumingzh@qq.com>\n"
+"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 50.0\n"
+"X-DL-Team: zh_CN\n"
+"X-DL-Module: gnome-extensions-app\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: Translating\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "扩展"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "管理您的 GNOME 扩展"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "GNOME 项目"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr "GNOME 扩展程序可用于升级扩展，配置扩展首选项和移除、禁用不想要的扩展。"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "主窗口"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "可用更新"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "搜索视图"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "配置 GNOME Shell 扩展"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr "该扩展的已安装版本（%s）与当前 GNOME 版本（%s）不兼容。该扩展已禁用。"
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr "该扩展的已安装版本与当前 GNOME 版本（%s）不兼容。该扩展已禁用。"
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"该扩展发生错误。这可能会导致系统其它地方出现问题。建议在错误解决前关闭该扩"
+"展。"
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "错误详情："
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "版本 %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "移除 “%s”？"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr "如果您移除该扩展，想要再次启用则需重新下载"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "移除(_R)"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"eternalhui <www.eternalhui@gmail.com>, 2013\n"
+"tuhaihe <1132321739qq@gmail.com>, 2013, 2020\n"
+"Wylmer Wang <wantinghard@gmail.com>, 2013\n"
+"YunQiang Su <wzssyqa@gmail.com>, 2014\n"
+"Sphinx Jiang <yishanj13@gmail.com>, 2014\n"
+"Tong Hui <tonghuix@gmail.com>, 2014\n"
+"Mingye Wang <arthur2e5@gmail.com>, 2015, 2016\n"
+"Mingcong Bai <jeffbai@aosc.xyz>, 2015, 2018\n"
+"Bin Li <binli@gnome.org>, 2016\n"
+"Michael Chen <searchends@gnu.hk>, 2016\n"
+"Mandy Wang <wangmychn@gmail.com>, 2016\n"
+"Dingzhong Chen <wsxy162@gmail.com>, 2015, 2016, 2017, 2019\n"
+"Weiyi Xu <xuweiyi0923@gmail.com>, 2020\n"
+"lumingzh <lumingzh@qq.com>, 2022-2026\n"
+"Victor_Trista <ljlzjzm@hotmail.com>, 2023\n"
+"Luke Na <narukeu@outlook.com>, 2026"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d 个扩展将在下次登录时更新。"
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "错误详情"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "更新详情"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr "该扩展的新版本已准备好且将在下次登录时加载。"
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "扩展详情"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "网站(_W)"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "设置(_S)"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "移除(_R)…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "关于扩展"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "搜索"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "搜索扩展"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "登出(_L)…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "扩展(_E)"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "更多信息"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr "扩展可能会引起性能和稳定性问题。如果您遇到系统问题建议禁用所有扩展。"
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "用户扩展"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "系统扩展"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "未找到结果"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "尝试不同的搜索"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "没有已安装的扩展"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"如需查找或添加扩展，请访问 <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a> 网站。"
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "出问题了"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"非常抱歉，我们无法获取已安装扩展的列表。请确保您已登录进 GNOME 并再试一次。"
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "常规"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "打开菜单"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "切换搜索"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "显示快捷键"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "退出"

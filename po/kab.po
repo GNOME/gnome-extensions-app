@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ButterflyOfFire <butterflyoffire@protonmail.com>, 2024-2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-01-17 13:23+0100\n"
+"Last-Translator: ButterflyOfFire <butterflyoffire@protonmail.com>\n"
+"Language-Team: Kabyle\n"
+"Language: kab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Gtranslator 49.0\n"
+"X-DL-Team: kab\n"
+"X-DL-Module: gnome-extensions-app\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: Translating\n"
+"X-DL-Lang: kab\n"
+"X-DL-VCS-Web: https://gitlab.gnome.org/GNOME/gnome-extensions-app/\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Isiɣzaf"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Sefrek isiɣzaf-inek·inem n GNOME"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Asenfaṛ n GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Asfaylu agejdan"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Ileqman yellan"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr ""
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr ""
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Talqayt n tuccḍa:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Lqem %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Kkes \"%s\"?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "Sefsex (_C)"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "Kkes (_R)"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Slimane Selyan AMIRI https://launchpad.net/~slimaneamiri\n"
+"  atlantis103 https://launchpad.net/~atlantis103-hotmail\n"
+"  Athmane MOKRAOUI"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] ""
+msgstr[1] ""
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Talqayt n tuccḍa"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr ""
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Talqayt n isiɣzaf"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "Asmel _Web"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "Iɣewwaren (_S)"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "Kkes (_R)"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Inegzumen n unasiw"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Ɣef Isiɣzaf"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Umuɣ agejdan"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Nadi"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Nadi ɣef isiɣzaf"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "Ffeɣ… (_L)"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "Isiɣzaf (_E)"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Ugar n yisallen"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Isiɣzaf n useqdac"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Iseɣzaf n unagraw"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Igmaḍ n unadi"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Ulac igmad yettwafen"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Ɛreḍ anadi-nniḍen"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Ulac isiɣzaf yettwasbedden"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Yella wacu ur neddi ara"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Amatu"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Ldi umuɣ"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Sken-d inegzumen"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Ffeɣ"

@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2022-12-12 06:49+0700\n"
+"Last-Translator: OIS <mistresssilvara@hotmail.com>\n"
+"Language-Team: IE\n"
+"Language: ie\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Extensiones"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+#, fuzzy
+msgid "Manage your GNOME Extensions"
+msgstr "Escutar e gerer vor musica"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Li projecte GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+#, fuzzy
+msgid "Main Window"
+msgstr "Fenestre de inicie"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+#, fuzzy
+msgid "Search View"
+msgstr "Serchar"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+#, fuzzy
+msgid "Configure GNOME Shell Extensions"
+msgstr "Shell GNOME"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+#, fuzzy
+msgid "Error details:"
+msgstr "Monstrar detallies"
+
+#: js/extensionRow.js:86
+#, fuzzy, javascript-format
+msgid "Version %s"
+msgstr "Version"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Remover «%s»?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+
+#: js/extensionsWindow.js:116
+#, fuzzy
+msgid "_Cancel"
+msgstr "Anullar"
+
+#: js/extensionsWindow.js:117
+#, fuzzy
+msgid "_Remove"
+msgstr "Remover"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr "OIS <mistresssilvara@hotmail.com>, 2016-22"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] ""
+msgstr[1] ""
+
+#: data/ui/extension-row.ui:20
+#, fuzzy
+msgid "Error Details"
+msgstr "Monstrar detallies"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr ""
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+
+#: data/ui/extension-row.ui:107
+#, fuzzy
+msgid "Extension Details"
+msgstr "&Detallies"
+
+#: data/ui/extension-row.ui:195
+#, fuzzy
+msgid "_Website"
+msgstr "Website"
+
+#: data/ui/extension-row.ui:222
+#, fuzzy
+msgid "_Settings"
+msgstr "Parametres"
+
+#: data/ui/extension-row.ui:249
+#, fuzzy
+msgid "_Remove…"
+msgstr "Remover…"
+
+#: data/ui/extensions-window.ui:16
+#, fuzzy
+msgid "Keyboard Shortcuts"
+msgstr "Monstrar li arangeament del tastatura"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Pri Extensiones"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr ""
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Serchar"
+
+#: data/ui/extensions-window.ui:116
+#, fuzzy
+msgid "Search extensions"
+msgstr "Secun _extension"
+
+#: data/ui/extensions-window.ui:133
+#, fuzzy
+msgid "_Log Out…"
+msgstr "Cluder li session…"
+
+#: data/ui/extensions-window.ui:141
+#, fuzzy
+msgid "_Extensions"
+msgstr "Extensiones"
+
+#: data/ui/extensions-window.ui:146
+#, fuzzy
+msgid "More Information"
+msgstr "Information del sistema"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+
+#: data/ui/extensions-window.ui:185
+#, fuzzy
+msgid "User Extensions"
+msgstr "Extensiones"
+
+#: data/ui/extensions-window.ui:194
+#, fuzzy
+msgid "System Extensions"
+msgstr "_Extensiones:"
+
+#: data/ui/extensions-window.ui:213
+#, fuzzy
+msgid "Search Results"
+msgstr "Serchar"
+
+#: data/ui/extensions-window.ui:227
+#, fuzzy
+msgid "No Results Found"
+msgstr "Null resultates."
+
+#: data/ui/extensions-window.ui:228
+#, fuzzy
+msgid "Try a different search"
+msgstr "Tippa por serchar"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Null installat extensiones"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+
+#: data/ui/extensions-window.ui:250
+#, fuzzy
+msgid "Something’s gone wrong"
+msgstr "Un errore evenit"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:16
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Aperter %s"
+
+#: data/ui/shortcuts-dialog.ui:22
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Serchar"
+
+#: data/ui/shortcuts-dialog.ui:28
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Monstrar errores"
+
+#: data/ui/shortcuts-dialog.ui:34
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Salir"

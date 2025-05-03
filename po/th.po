@@ -1,0 +1,271 @@
+# Thai translation for gnome-extensions-app.
+# Copyright (C) 2010-2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Sira Nokyoongtong <gumaraa@gmail.com>, 2010, 2011.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2012.
+# Aefgh Threenine <aefgh39622@gmail.com>, 2024.
+# Atirut Wattanamongkol <atirut.wattanamongkol@gmail.com>, 2024-2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-01-31 17:32+0700\n"
+"Last-Translator: Atirut Wattanamongkol <atirut.wattanamongkol@gmail.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+"X-DL-Lang: th\n"
+"X-DL-Module: gnome-extensions-app\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: None\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "ส่วนขยาย"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "จัดการส่วนขยายสำหรับ GNOME ของคุณ"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "โครงการ GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"ส่วนขยายสำหรับ GNOME จัดการกับการอัปเดตส่วนขยาย "
+"การกำหนดค่าปรับแต่งส่วนขยายและการลบหรือปิดใช้งานส่วนขยายที่ไม่ต้องการ"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "หน้าต่างหลัก"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "รายการอัปเดตที่มีอยู่"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "มุมมองค้นหา"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "กำหนดค่าส่วนขยายของ GNOME Shell"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"ส่วนขยายรุ่นที่ติดตั้งนี้ (%s) ไม่เข้ากับ GNOME รุ่นปัจจุบัน (%s) ส่วนขยายนั้นได้ถูกปิดใช้งานแล้ว"
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr "ส่วนขยายรุ่นที่ติดตั้งนี้ไม่เข้ากับ GNOME รุ่นปัจจุบัน (%s) ส่วนขยายนั้นได้ถูกปิดใช้งานแล้ว"
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"มีข้อผิดพลาดเกิดขึ้นในส่วนขยายนี้ ข้อผิดพลาดนี้อาจทำให้เกิดปัญหาในจุดอื่น ๆ ในระบบ "
+"ขอแนะนำให้ปิดส่วนขยายจนกว่าจะแก้ไขข้อผิดพลาดได้แล้ว"
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "รายละเอียดข้อผิดพลาด:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "รุ่น %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "ลบ “%s” หรือไม่?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr "ถ้าคุณลบส่วนขยายออก คุณจะต้องกลับไปดาวน์โหลดใหม่หากต้องการเปิดใช้อีกครั้ง"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_ยกเลิก"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_ลบ"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Sira Nokyoongtong <gumaraa@gmail.com>\n"
+"Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"Atirut Wattanamongkol <atirut.wattanamongkol@gmail.com>\n"
+"Aefgh Threenine <aefgh39622@gmail.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "ส่วนขยาย %d รายการจะถูกอัปเดตเมื่อเข้าระบบครั้งถัดไป"
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "รายละเอียดข้อผิดพลาด"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "รายละเอียดอัปเดต"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr "ส่วนขยายนี้มีรุ่นใหม่พร้อมใช้งานแล้วและจะถูกโหลดเมื่อเข้าระบบครั้งถัดไป"
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "รายละเอียดส่วนขยาย"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "เ_ว็บไซต์"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_ตั้งค่า"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_ลบ…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "ปุ่มลัดแป้นพิมพ์"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "เกี่ยวกับ “ส่วนขยาย”"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "เมนูหลัก"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "ค้นหา"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "ค้นหาส่วนขยาย"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_ออกจากระบบ…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_ส่วนขยาย"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "ข้อมูลเพิ่มเติม"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"ส่วนขยายอาจทำให้เกิดปัญหาด้านประสิทธิภาพและความเสถียร "
+"ขอแนะนำให้ปิดใช้งานส่วนขยายหมดทุกตัวถ้าคุณพบปัญหากับระบบของคุณ"
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "ส่วนขยายผู้ใช้"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "ส่วนขยายระบบ"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "ผลการค้นหา"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "ไม่พบผลลัพธ์"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "โปรดลองค้นหาด้วยคำอื่น"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "ไม่มีส่วนขยายที่ติดตั้งอยู่"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"เมื่อต้องการค้นหาและเพิ่มส่วนขยาย ให้เยี่ยมชม <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "มีบางอย่างผิดปกติ"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"เราขออภัยอย่างที่สุด แต่เป็นไปไม่ได้ที่จะอ่านข้อมูลของรายชื่อส่วนขยายที่ติดตั้งอยู่ "
+"ให้ตรวจสอบให้แน่ใจว่าคุณเข้าระบบ GNOME แล้วและลองอีกครั้ง"
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "ทั่วไป"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "เปิดเมนู"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "เปิด/ปิดส่วนค้นหา"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "แสดงปุ่มลัด"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "ออก"

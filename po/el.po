@@ -1,0 +1,279 @@
+# Kostas Papadimas <pkst@gnome.org>, 2012.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2013, 2014, 2015.
+# Vangelis Skarmoutsos <skarmoutsosv@gmail.com>, 2013.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2013-2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app.po.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2025-10-18 22:44+0300\n"
+"Last-Translator: Efstathios Iosifidis <eiosifidis@gnome.org>\n"
+"Language-Team: Greek, Modern (1453-) <gnome-el-list@gnome.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.7\n"
+"X-DamnedLies-Scope: partial\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Project-Style: gnome\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Επεκτάσεις"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Διαχείριση επεκτάσεων GNOME"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Το έργο GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"Το πρόγραμμα Επεκτάσεις GNOME χειρίζεται την ενημέρωση επεκτάσεων, τη "
+"ρύθμιση προτιμήσεων και την αφαίρεση ή απενεργοποίηση ανεπιθύμητων "
+"επεκτάσεων."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Κυρίως παράθυρο"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Διαθέσιμες ενημερώσεις"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Προβολή αναζήτησης"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Ρύθμιση επεκτάσεων του GNOME Shell"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Η εγκατεστημένη έκδοση αυτής της επέκτασης (%s) δεν είναι συμβατή με την "
+"τρέχουσα έκδοση GNOME (%s). Η επέκταση έχει απενεργοποιηθεί."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Η εγκατεστημένη έκδοση αυτής της επέκτασης δεν είναι συμβατή με την τρέχουσα "
+"έκδοση GNOME (%s). Η επέκταση έχει απενεργοποιηθεί."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Ένα σφάλμα συνέβη με αυτή την επέκταση. Αυτό θα μπορούσε να δημιουργήσει "
+"προβλήματα αλλού στο σύστημα. Συνιστάται να απενεργοποιήσετε την επέκταση "
+"ωσότου το σφάλμα να επιλυθεί."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Λεπτομέρειες σφάλματος:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Έκδοση %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Αφαίρεση «%s»;"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Εάν αφαιρέσετε την επέκταση και θέλετε να την ενεργοποιήσετε ξανά, "
+"χρειάζεται να πραγματοποιηθεί λήψη εκ νέου"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Ακύρωση"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Αφαίρεση"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME\n"
+" Ευστάθιος Ιωσηφίδης <iosifidis@opensuse.org>\n"
+"\n"
+"\n"
+"Για περισσότερες πληροφορίες, επισκεφθείτε τη σελίδα\n"
+"http://gnome.gr/"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "Η %d επέκταση θα ενημερωθεί στην επόμενη είσοδο."
+msgstr[1] "Οι %d επεκτάσεις θα ενημερωθούν στην επόμενη είσοδο."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Λεπτομέρειες σφάλματος"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Λεπτομέρειες ενημερώσεων"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Μια νέα έκδοση αυτής της επέκτασης είναι έτοιμη και θα φορτωθεί στην επόμενη "
+"σύνδεση."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Λεπτομέρειες επέκτασης"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Ιστότοπος"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Ρυθμίσεις"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Αφαίρεση…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Συντομεύσεις πληκτρολογίου"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Περί επεκτάσεων"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Κυρίως μενού"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Αναζήτηση επεκτάσεων"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Αποσύνδεση…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Επεκτάσεις"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Περισσότερες πληροφορίες"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Οι επεκτάσεις ενδέχεται να προκαλέσουν θέματα απόδοσης και σταθερότητας. "
+"Συνιστάται να απενεργοποιήσετε όλες τις επεκτάσεις αν αντιμετωπίσετε "
+"προβλήματα με το σύστημά σας."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Επεκτάσεις χρήστη"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Επεκτάσεις συστήματος"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Αποτελέσματα αναζήτησης"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Δεν βρέθηκαν αποτελέσματα"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Επιχειρήστε μια διαφορετική αναζήτηση"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Καμία εγκατεστημένη επέκταση"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Για να βρείτε και να εγκαταστήσετε επεκτάσεις, επισκεφθείτε την ιστοσελίδα "
+"<a href=\"https://extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Κάτι πήγε στραβά"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Λυπούμαστε πολύ, αλλά δεν ήταν δυνατή η λήψη της λίστας εγκατεστημένων "
+"επεκτάσεων. Βεβαιωθείτε ότι έχετε συνδεθεί στο GNOME και προσπαθήστε ξανά."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Γενικά"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Άνοιγμα μενού"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Εναλλαγή αναζήτησης"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Εμφάνιση συντομεύσεων"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "'Εξοδος"

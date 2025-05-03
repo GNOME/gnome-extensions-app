@@ -1,0 +1,273 @@
+# Occitan translations for gnome-extensions-app package.
+# Copyright (C) 2009-2015 Listed translators
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Cédric Valmary (Tot en Òc) <cvalmary@yahoo.fr>, 2015.
+# Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>, 2016, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master oc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-01-25 18:21+0100\n"
+"Last-Translator: Quentin PAGÈS\n"
+"Language-Team: Tot En Òc\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.8\n"
+"X-Project-Style: gnome\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Extensions"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Gerir vòstras extensions GNOME"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Lo projècte GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"GNOME Extensions gerís las mesas a jorn d'extensions, lo parametratge de la "
+"preferéncias d'extensions e la supression o desactivacion de las extensions "
+"pas volguda."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Fenèstra principala"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Mesas a jorn disponiblas"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Vista recèrca"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Configurar las extensions GNOME Shell"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"La version installada d’aquesta extension (%s) es incompatibla amb la "
+"version actuala de GNOME (%s). Se’s desactivat l’extension."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"La version installada d’aquesta extension es incompatibla amb la version "
+"actuala de GNOME (%s). Se’s desactivat l’extension."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Una error se’s producha dins aquesta extension. Aquò pòt causar de problèmas "
+"endacòm mai dins lo sistèma. Es recomandat d’atudar l’extension dusca que "
+"l’error siá corregida."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Detalhs de l’error :"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Suprimir « %s » ?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Se suprimissètz l'extension, vos calrà la tornar telecargar se la volètz "
+"tornar activar"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Anullar"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Suprimir"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Cédric Valmary (totenoc.eu), <cvalmary@yahoo.fr>\n"
+"Quentin PAGÈS"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d extension serà mesa a jorn a la connexion venenta."
+msgstr[1] "%d extensions seràn mesas a jorn a la connexion venenta."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Detalhs de l’error"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Detalhs de la mesa a jorn"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Una version novèla d’aquesta extension es prèsta e cargada a la connexion "
+"venenta."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Detalhs de l’extension"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "Site _Web"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Paramètres"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Suprimir…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Acorchis de clavièr"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "A prepaus de las extensions"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Recèrca"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Cercar d’extensions"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Se desconnectar…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Extensions"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Mai d'informacions"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Las extensions pòdon causar de problèmas de performanças e d’estabilitat. Es "
+"recomandat de eesactivar totas las extensions se trobatz de problèmas ligats "
+"al sistèma."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Extensions utilizaire"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Extensions sistèma"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Resultats de la recèrca"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Cap de resultat pas trobat"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Ensajatz una autra recèrca"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Cap d’extension pas installada"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Per trobar e apondre d’extensions, consultatz <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Quicòm a trucat"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"O planhèm, es pas possible d’obténer la lista de las extensions installadas. "
+"Verificatz que sètz ben connectat a GNOME e tornatz ensajar."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "General"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Dobrir lo menú"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Alternar la recèrca"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Afichar los acorchis"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Quitar"

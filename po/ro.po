@@ -1,0 +1,281 @@
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010, 2011.
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2010, 2011.
+# laurion <me_lawr@yahoo.com>, 2010.
+# Ion Laurențiu Cristian <me_lawr@yahoo.com>, 2010.
+# Răpițeanu Viorel-Cătălin <rapiteanu.catalin@gmail.com>, 2013.
+# Viorel-Cătălin Răpițeanu <rapiteanu.catalin@gmail.com>, 2014.
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2015, 2018.
+# Antonio Marin <gnmer.6qxyg@slmail.me>, 2025-2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-05-21 11:44+0200\n"
+"Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"20)) ? 1: 2);\n"
+"X-Generator: Gtranslator 48.0\n"
+"X-Project-Style: gnome\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Extensii"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Administrează Exensiile GNOME"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Proiectul GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"Exensii GNOME gestionează actualizarea extensiilor, configurarea "
+"preferințelor extensiei și eliminarea sau dezactivarea extensiilor nedorite."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Fereastra principală"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Actualizări disponibile"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Vizualizarea căutării"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Configurează extensiile interfeței GNOME"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Versiunea instalată a acestei extensii (%s) nu este compatibilă cu versiunea "
+"actuală de GNOME (%s). Extensia a fost dezactivată."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Versiunea instalată a acestei extensii nu este compatibilă cu versiunea "
+"actuală de GNOME (%s). Extensia a fost dezactivată."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"A apărut o eroare în această extensie. Acest lucru poate cauza probleme în "
+"alte părți ale sistemului. Este recomandat să fie oprită extensia până când "
+"eroarea este corectată."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Detalii eroare:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Versiunea %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Se elimină „%s”?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Dacă se elimină extensia, trebuie descărcată din nou dacă se dorește "
+"reactivarea ei"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Anulează"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Elimină"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Florentina Mușat <florentina [dot] musat [dot] 28 [at] gmail [dot] com>\n"
+"Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
+"Antonio Marin <gnmer.6qxyg@slmail.me>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d extensie va fi actualizată la următoarea autentificare."
+msgstr[1] "%d extensii vor fi actualizate la următoarea autentificare."
+msgstr[2] "%d de extensii vor fi actualizate la următoarea autentificare."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Detalii eroare"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Detalii actualizări"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"O versiune nouă a acestei extensii este gata și va fi încărcată la "
+"următoarea autentificare."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Detalii extensie"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "Pagina _web"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Schimbări"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "Eli_mină…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Scurtături"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Despre extensii"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Opțiuni"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Caută"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Caută extensii"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Termină sesiunea…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Extensii"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Mai multe informații"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Extensiile pot cauza probleme de performanță și stabilitate. Este "
+"recomandată dezactivarea tuturor extensiilor dacă apar probleme cu sistemul."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Extensiile utilizatorului"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Extensiile sistemului"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Rezultatele căutării"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Nu s-au găsit rezultate"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Se poate căuta altfel"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Nicio extensie instalată"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Pentru a căuta și adăuga extensii: <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Ceva nu a funcționat cum trebuie"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Nu s-a putut obține lista extensiilor instalate. Trebuie verificată "
+"autentificarea în GNOME și încercat din nou."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Generale"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Arată opțiunile"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Arată/Ascunde căutarea"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Arată scurtăturile"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Închide"

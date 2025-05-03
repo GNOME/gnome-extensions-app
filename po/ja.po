@@ -1,0 +1,300 @@
+# Japanese translation of gnome-extensions-app package.
+# Copyright (C) 2010-2017, 2019-2020, 2022-2023, 2025 the gnome-extensions-app copyright holder.
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Nishio Futoshi <fut_nis@d3.dion.ne.jp>, 2010.
+# Kiyotaka NISHIBORI <ml.nishibori.kiyotaka@gmail.com>, 2011.
+# Hideki Yamane <henrich@debian.org>, 2011.
+# Kusano Takayuki <https://bsky.app/profile/tkusano.jp>, 2011, 2012, 2025.
+# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2011-2017.
+# Takanori MATSUURA <t.matsuu@gmail.com>, 2012.
+# Yoji TOYODA <bsyamato@sea.plala.or.jp>, 2013.
+# Ikuya Awashiro <ikuya@fruitsbasket.info>, 2014.
+# IWAI, Masaharu <iwaim.sub@gmail.com>, 2015.
+# sicklylife <translation@sicklylife.jp>, 2019-2020, 2022.
+# 小山田 純 <oyamadajun@outlook.jp>, 2022-2026.
+# Makoto Sakaguchi <ycco34vx@gmail.com>, 2025.
+# Seiji Iizuka <seiji@iizuka.dev>, 2025-2026.
+# Ryo Nakano <ryonakaknock3@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-05-23 09:34+0900\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.gnome.org/teams/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "拡張機能"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "GNOME 拡張機能を管理します"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "The GNOME Project"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"“拡張機能”は GNOME Shell 拡張機能の設定、更新、削除、不要な拡張機能の無効化を"
+"行うことができます。"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "メインウィンドウ"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "アップデートがあります"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "検索画面"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "GNOME Shell 拡張機能を設定"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"インストールされているこの拡張機能のバージョン (%s) は、現在の GNOME バージョ"
+"ン (%s) と互換性がありません。拡張機能は無効化されました。"
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"インストールされているこの拡張機能のバージョンは、現在の GNOME バージョン "
+"(%s) と互換性がありません。拡張機能は無効化されました。"
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"この拡張機能でエラーが発生しました。これによりシステムの他の部分で問題が生じ"
+"る可能性があります。エラーが解決されるまで拡張機能を無効にすることをお勧めし"
+"ます。"
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "エラーの詳細:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "バージョン %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "“%s” を削除しますか?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"拡張機能を削除した場合、再度有効にするにはダウンロードし直す必要があります"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "キャンセル(_C)"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "削除(_R)"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"小山田 純 <oyamadajun@outlook.jp>\n"
+"Hideki Yamane <henrich@debian.org>\n"
+"Ikuya Awashiro <ikuya@fruitsbasket.info>\n"
+"IWAI, Masaharu <iwaim.sub@gmail.com>\n"
+"Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
+"Kiyotaka NISHIBORI <ml.nishibori.kiyotaka@gmail.com>\n"
+"Nishio Futoshi <fut_nis@d3.dion.ne.jp>\n"
+"sicklylife <translation@sicklylife.jp>\n"
+"Takanori MATSUURA <t.matsuu@gmail.com>\n"
+"Kusano Takayuki <https://bsky.app/profile/tkusano.jp>\n"
+"Yoji TOYODA <bsyamato@sea.plala.or.jp>\n"
+"Seiji Iizuka <seiji@iizuka.dev>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Jiro Matsuzawa https://launchpad.net/~jmatsuzawa\n"
+"  Mitsuya Shibata https://launchpad.net/~cosmos-door\n"
+"  Shinichirou Yamada https://launchpad.net/~yamada-strong-yamada-nice-64bit\n"
+"  Shushi Kurose https://launchpad.net/~kuromabo\n"
+"  id:sicklylife https://launchpad.net/~sicklylife\n"
+"  sujiniku https://launchpad.net/~sujinikusityuu\n"
+"Makoto Sakaguchi <ycco34vx@gmail.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d 個の拡張機能を次回ログイン時に更新します。"
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "エラーの詳細"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "アップデートの詳細"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"この拡張機能の新しいバージョンが準備できており、次回ログイン時に読み込まれま"
+"す。"
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "拡張機能の詳細"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "ウェブサイト(_W)"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "設定(_S)"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "削除(_R)…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "キーボードショートカット"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "“拡張機能”について"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "検索"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "拡張機能の検索"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "ログアウト(_L)…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "拡張機能(_E)"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "詳細な情報"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"拡張機能はパフォーマンスや安定性の問題を引き起こす可能性があります。システム"
+"に問題が発生した場合は、すべての拡張機能を無効にすることを推奨します。"
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "ユーザーの拡張機能"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "システムの拡張機能"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "検索結果"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "検索結果がありません"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "別の検索を試してください"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "インストールされた拡張機能はありません"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"拡張機能の検索や追加は <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a> で行うことができます。"
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "何か問題が発生しました"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"申し訳ございませんが、インストールされている拡張機能の一覧を取得できませんで"
+"した。GNOME にログインしていることを確認してから、もう一度お試しください。"
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "全般"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "メニューを開く"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "検索"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "ショートカットを表示"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "終了"

@@ -1,0 +1,294 @@
+# Dutch translation for gnome-extensions-app
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Aangezien dit een erg zichtbare module is graag eerst contact opnemen met
+# Wouter Bolsterlee alvorens zaken te wijzigen!
+# Message tray           - Berichtenoverzicht
+#
+# Sander Dijkhuis <sander.dijkhuis@gmail.com>, 2009–2010.
+# Reinout van Schouwen <reinouts@gnome.org>, 2010, 2013, 2014.
+# Wouter Bolsterlee <wbolster@gnome.org>, 2011–2014.
+# Erwin Poeze <donnut@outlook.com>, 2013.
+# Nathan Follens <nfollens@gnome.org>, 2015-2026.
+# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2015, 2017, 2018, 2021.
+# Justin van Steijn <jvs@fsfe.org>, 2016, 2018.
+# Philip Goto <philip.goto@gmail.com>, 2018, 2022.
+# Youpie <youplamb@hotmail.nl>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-04-19 19:27+0200\n"
+"Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
+"Language-Team: GNOME-NL https://matrix.to/#/#nl:gnome.org\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+"X-DamnedLies-Scope: partial\n"
+"X-Project-Style: gnome\n"
+"X-DL-Lang: nl\n"
+"X-DL-Module: gnome-extensions-app\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: None\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Uitbreidingen"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Beheer uw GNOME-uitbreidingen"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Het GNOME-project"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"GNOME Uitbreidingen staat in voor het bijwerken van uitbreidingen, hun "
+"voorkeuren te configureren of ongewenste uitbreidingen te verwijderen of uit "
+"te schakelen."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Hoofdvenster"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Beschikbare updates"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Zoekweergave"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "GNOME Shell-uitbreidingen configureren"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"De geïnstalleerde versie van deze uitbreiding (%s) is incompatibel met de "
+"huidige GNOME-versie (%s). De uitbreiding is uitgeschakeld."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"De geïnstalleerde versie van deze uitbreiding is incompatibel met de huidige "
+"GNOME-versie (%s). De uitbreiding is uitgeschakeld."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Er is een fout opgetreden in deze uitbreiding. Dit kan elders in het systeem "
+"problemen veroorzaken. Het wordt aanbevolen om de uitbreiding uit te "
+"schakelen totdat de fout opgelost is."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Foutdetails:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Versie %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "‘%s’ verwijderen?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Als u een uitbreiding verwijdert, zult u deze opnieuw moeten downloaden om "
+"ze opnieuw te gebruiken"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "Annu_leren"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "Ve_rwijderen"
+
+# Met het nieuwe over-venster ziet de lege regel tussen vertalers en meer info er vreemd uit, mij lijkt het beter om deze weg te laten.
+# - Philip
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Nathan Follens <nfollens@gnome.org>\n"
+"Philip Goto <philip.goto@gmail.com>\n"
+"Youp Lamb\n"
+"Meer info over GNOME-NL https://nl.gnome.org"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d uitbreiding wordt bijgewerkt bij de volgende aanmelding."
+msgstr[1] "%d uitbreidingen worden bijgewerkt bij de volgende aanmelding."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Foutdetails"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Updatedetails"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Een nieuwe versie van deze uitbreiding staat klaar en zal geladen worden bij "
+"de volgende aanmelding."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Uitbreidingsdetails"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Website"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "In_stellingen"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "Ve_rwijderen…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Sneltoetsen"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Over uitbreidingen"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Hoofdmenu"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Zoeken"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Uitbreidingen zoeken"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "Afme_lden…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "Uitbr_eidingen"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Meer informatie"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Uitbreidingen kunnen prestatie- en stabiliteitsproblemen veroorzaken. Het "
+"wordt aanbevolen om uitbreidingen uit te schakelen als u problemen "
+"ondervindt met uw systeem."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Gebruikersuitbreidingen"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Systeemuitbreidingen"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Zoekresultaten"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Geen resultaten gevonden"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Probeer een andere zoekopdracht"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Geen uitbreidingen geïnstalleerd"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Bezoek <a href=\"https://extensions.gnome.org\">extensions.gnome.org</a> om "
+"uitbreidingen te zoeken en installeren."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Er is iets misgegaan"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Sorry, we konden de lijst met geïnstalleerde uitbreidingen niet verkrijgen. "
+"Zorg dat u bij GNOME aangemeld bent, en probeer het opnieuw."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Algemeen"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Menu openen"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Zoekbalk in-/uitschakelen"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Sneltoetsen tonen"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Afsluiten"

@@ -1,0 +1,273 @@
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2013, 2014.
+# Kasia Bondarava <kasia.bondarava@gmail.com>, 2012.
+# Yuras Shumovich <shumovichy@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-06-21 19:36+0300\n"
+"Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
+"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 3.8\n"
+"X-Project-Style: gnome\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Пашырэнні"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Кіраванне пашырэннямі GNOME"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Праект GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"Пашырэнні GNOME ажыццяўляюць абнаўленне і змяненне параметраў пашырэнняў, "
+"выдаленне або адключэнне непажаданых пашырэнняў."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Галоўнае акно"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Даступны абнаўленні"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Пошук"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Наладзіць пашырэнні абалонкі GNOME"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Усталяваная версія пашырэння (%s) несумяшчальная з бягучай версіяй GNOME "
+"(%s). Пашырэнне адключана."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Усталяваная версія пашырэння несумяшчальная з бягучай версіяй GNOME (%s). "
+"Пашырэнне адключана."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"У гэтым пашырэнні адбылася памылка, што можа прывесці да праблем у іншых "
+"частках сістэмы. Пакуль памылка не будзе выпраўлена, рэкамендуецца адключыць "
+"пашырэнне."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Падрабязнасці памылкі:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Версія %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Выдаліць «%s»?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Калі выдаліць пашырэнне і потым уключыць яго зноў, спатрэбіцца паўторнае "
+"спампоўванне"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Скасаваць"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Выдаліць"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Kasia Bondarava <kasia.bondarava@gmail.com>\n"
+"Yuras Shumovich <shumovichy@gmail.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "Падчас наступнага ўваходу ў сістэму абновіцца %d пашырэнне."
+msgstr[1] "Падчас наступнага ўваходу ў сістэму абновіцца %d пашырэнні."
+msgstr[2] "Падчас наступнага ўваходу ў сістэму абновіцца %d пашырэнняў."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Падрабязнасці памылкі"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Падрабязнасці абнаўлення"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Новая версія пашырэння гатова да выкарыстання, яна будзе загружана падчас "
+"наступнага ўваходу ў сістэму."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Звесткі аб пашырэнні"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Вэб-сайт"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Налады"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Выдаліць…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Спалучэнні клавіш"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Пра пашырэнні"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Галоўнае меню"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Пошук"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Пошук пашырэнняў"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Выйсці…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Пашырэнні"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Дадатковыя звесткі"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Пашырэнні могуць выклікаць праблемы з прадукцыйнасцю і стабільнасцю. "
+"Рэкамендуецца адключыць усе пашырэнні, калі вы сутыкнуліся з праблемамі ў "
+"сваёй сістэме."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Пашырэнні карыстальніка"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Сістэмныя пашырэнні"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Вынікі пошуку"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Нічога не знойдзена"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Паспрабуйце змяніць пошукавы запыт"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Няма ўсталяваных пашырэнняў"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Каб знайсці і дадаць пашырэнні, наведайце <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Нешта пайшло не так"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"На жаль, немагчыма атрымаць спіс усталяваных пашырэнняў. Праверце, ці "
+"ўвайшлі вы ў GNOME і паўтарыце спробу."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Агульныя"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Адкрыць меню"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Пошук"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Паказаць спалучэнні клавіш"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Выйсці"

@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Nepali Translation Gnome 3.26 dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2022-09-19 10:55+0545\n"
+"Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
+"Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "विस्तारहरू"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "तपाईँको जिनोम विस्तार व्यवस्थापन गर्नुहोस्"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "जिनोम परियोजना"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"जिनोम विस्तारले विस्तारअद्यावधिक ह्यान्डल गर्दछ, विस्तार प्राथमिकताहरू कन्फिगर गर्दछ र "
+"नचाहिएका विस्तारहरू हटाउँदै वा अक्षम पार्दैछ।"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+#, fuzzy
+msgid "Main Window"
+msgstr "सञ्झ्याल लगइन गर्नुहोस्"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+#, fuzzy
+msgid "Search View"
+msgstr "खोजी गर्नुहोस्"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "जिनोम सेल  विस्तारहरू कन्फिगर"
+
+#: js/extensionManager.js:241
+#, fuzzy, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr "हालको जिनोम संस्करणसँग विस्तार मिल्दो छैन"
+
+#: js/extensionManager.js:242
+#, fuzzy, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr "हालको जिनोम संस्करणसँग विस्तार मिल्दो छैन"
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+#, fuzzy
+msgid "Error details:"
+msgstr "अरू धेरै विवरण देखाउनुहोस्"
+
+#: js/extensionRow.js:86
+#, fuzzy, javascript-format
+msgid "Version %s"
+msgstr "संस्करण"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "\"%s\" हटाउनुहुन्छ?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"यदि तपाईँले विस्तार हटाउनुभयो भने, यदि तपाईँ यसलाई फेरि सक्षम पार्न चाहनुहुन्छ भने यसलाई "
+"डाउनलोड गर्न फर्काउनु आवश्यक छ"
+
+#: js/extensionsWindow.js:116
+#, fuzzy
+msgid "_Cancel"
+msgstr "_रद्द"
+
+#: js/extensionsWindow.js:117
+#, fuzzy
+msgid "_Remove"
+msgstr "हटाउनुहोस्"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr "Pawan Chitrakar <chautari @gmail.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d विस्तार पछिल्लो लगइनमा अद्यावधिक हुनेछ ।"
+msgstr[1] "%d विस्तार पछिल्लो लगइनमा अद्यावधिक हुनेछ ।"
+
+#: data/ui/extension-row.ui:20
+#, fuzzy
+msgid "Error Details"
+msgstr "अरू धेरै विवरण देखाउनुहोस्"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr ""
+
+#: data/ui/extension-row.ui:75
+#, fuzzy
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr "%d विस्तार पछिल्लो लगइनमा अद्यावधिक हुनेछ ।"
+
+#: data/ui/extension-row.ui:107
+#, fuzzy
+msgid "Extension Details"
+msgstr "मुद्रण बिस्तार विवरण"
+
+#: data/ui/extension-row.ui:195
+#, fuzzy
+msgid "_Website"
+msgstr "वेबसाइट"
+
+#: data/ui/extension-row.ui:222
+#, fuzzy
+msgid "_Settings"
+msgstr "सेटिङ"
+
+#: data/ui/extension-row.ui:249
+#, fuzzy
+msgid "_Remove…"
+msgstr "हटाउनुहोस्…"
+
+#: data/ui/extensions-window.ui:16
+#, fuzzy
+msgid "Keyboard Shortcuts"
+msgstr "किबोर्ड लेआउट देखाउनुहोस्"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "विस्तारहरू बारेमा"
+
+#: data/ui/extensions-window.ui:74
+#, fuzzy
+msgid "Main Menu"
+msgstr "टेयरअफ मेनु"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "खोजी गर्नुहोस्"
+
+#: data/ui/extensions-window.ui:116
+#, fuzzy
+msgid "Search extensions"
+msgstr "विस्तार सिर्जना गर्नुहोस्"
+
+#: data/ui/extensions-window.ui:133
+#, fuzzy
+msgid "_Log Out…"
+msgstr "लगआउट…"
+
+#: data/ui/extensions-window.ui:141
+#, fuzzy
+msgid "_Extensions"
+msgstr "विस्तारहरू"
+
+#: data/ui/extensions-window.ui:146
+#, fuzzy
+msgid "More Information"
+msgstr "प्रणाली जानकारी"
+
+#: data/ui/extensions-window.ui:158
+#, fuzzy
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"एक्सटेन्सनले प्रदर्शन र स्थिरता समस्याहरू निम्त्याउन सक्छ। यदि तपाईँले आफ्नो प्रणालीमा समस्या "
+"हरू सामना गर्नुभयो भने एक्सटेन्सनहरू अक्षम पार्नुहोस् ।"
+
+#: data/ui/extensions-window.ui:185
+#, fuzzy
+msgid "User Extensions"
+msgstr "विस्तारहरू"
+
+#: data/ui/extensions-window.ui:194
+#, fuzzy
+msgid "System Extensions"
+msgstr "विस्तार सूची"
+
+#: data/ui/extensions-window.ui:213
+#, fuzzy
+msgid "Search Results"
+msgstr "खोजी गर्नुहोस्"
+
+#: data/ui/extensions-window.ui:227
+#, fuzzy
+msgid "No Results Found"
+msgstr "नतिजा छैन ।"
+
+#: data/ui/extensions-window.ui:228
+#, fuzzy
+msgid "Try a different search"
+msgstr "खोजी गर्न टाईप गर्नुहोस्"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "विस्तार स्थापना गरिएको छैन"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"विस्तारहरू फेला पार्न र थप गर्न <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a> हेर्नुहोस्।"
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "केही गलत भयो"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"हामी धेरै दुःखी छौं, तर स्थापना गरिएको विस्तारको सूची प्राप्त गर्न सम्भव थिएन । तपाईँ "
+"जिनोममा लग इन भएको निश्चित गर्नुहोस् र फेरि प्रयास गर्नुहोस् ।"
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:16
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "पात्रो खोल्नुहोस्"
+
+#: data/ui/shortcuts-dialog.ui:22
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "खोजी गर्नुहोस्"
+
+#: data/ui/shortcuts-dialog.ui:28
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "त्रुटि देखाउनुहोस्"
+
+#: data/ui/shortcuts-dialog.ui:34
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "अन्त्य गर्नुहोस्"

@@ -1,0 +1,269 @@
+# Uzbek (Latin) translation for gnome-extensions-app.
+# Copyright (C) 2025 gnome-extensions-app's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Baxrom Raxmatov <magdiyevbahrom@gmail.com>,  2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2025-12-24 19:40+0500\n"
+"Last-Translator: Baxrom Raxmatov\n"
+"Language-Team: uzbek-net\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Kengaytmalar"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "GNOME kengaytmalaringizni boshqaring"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "GNOME loyihasi"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"GNOME kengaytmalari kengaytmalarni yangilash, kengaytma afzalliklarini "
+"sozlash va keraksiz kengaytmalarni oʻchirish yoki oʻchirish bilan "
+"shugʻullanadi."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Asosiy oyna maksimal darajada ochilishi kerak"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Mavjud yangilanishlar"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Qidiruv koʻrinishi"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "GNOME Shell kengaytmalarini sozlang"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Ushbu kengaytmaning oʻrnatilgan versiyasi (%s) joriy GNOME versiyasiga (%s) "
+"mos kelmaydi. Kengaytma oʻchirilgan."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Ushbu kengaytmaning oʻrnatilgan versiyasi joriy GNOME (%s) versiyasiga mos "
+"kelmaydi. Kengaytma oʻchirilgan."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Ushbu kengaytmada xatolik yuz berdi. Bu tizimning boshqa joylarida "
+"muammolarga olib kelishi mumkin. Xato hal qilinmaguncha kengaytmani oʻchirib "
+"qoʻyish tavsiya etiladi."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Xato tafsilotlari:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Versiya %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "“%s” olib tashlansinmi?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Agar kengaytmani olib tashlasangiz, uni qayta yoqishni istasangiz, uni "
+"yuklab olish uchun qaytishingiz kerak"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "Bekor qilish"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "Oʻchirish"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr "Baxrom Raxmatov <magdiyevbahrom@gmail.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d kengaytmasi keyingi kirishda yangilanadi."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Xato tafsilotlari"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Yangilanish tafsilotlari"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Ushbu kengaytmaning yangi versiyasi tayyor va keyingi kirishda yuklanadi."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Kengaytma tafsilotlari"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "Vebsayt"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "Sozlamalar"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "Oʻchirish…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Klaviatura yorliqlari"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Kengaytmalar haqida"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Asosiy menyu"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Qidiruv"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Kengaytmalarni qidirish"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "Chiqish…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "Kengaytmalar"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Batafsil"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Kengaytmalar ishlash va barqarorlik muammolariga olib kelishi mumkin. Agar "
+"tizimingizda muammolarga duch kelsangiz, barcha kengaytmalarni oʻchirib "
+"qoʻyish tavsiya etiladi."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Foydalanuvchi kengaytmalari"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Tizim kengaytmalari"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Izlash Natijalari"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Hech qanday natija topilmadi"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Boshqa qidiruvni sinab koʻring"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Oʻrnatilgan kengaytmalar yoʻq"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Kengaytmalarni topish va qoʻshish uchun <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a> saytiga tashrif buyuring."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Nimadir xato ketdi"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Kechirasiz, lekin oʻrnatilgan kengaytmalar roʻyxatini olishning iloji "
+"boʻlmadi. GNOME-ga kirganingizga ishonch hosil qiling va qayta urinib "
+"koʻring."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Umumiy"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Menyuni ochish"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Qidiruvni almashtirish"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Yorliqlarni koʻrsatish"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Chiqish"

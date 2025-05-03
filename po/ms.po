@@ -1,0 +1,280 @@
+# Malay translations for gnome-extensions-app package.
+# Copyright (C) 2011 Listed translators
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Andi Rady Kurniawan <niariot87@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master ms\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2020-01-27 03:20+0800\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
+"Language-Team: Pasukan Terjemahan GNOME Malaysia\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+#, fuzzy
+msgid "Extensions"
+msgstr "Sambungan-Sambungan Shell"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+#, fuzzy
+msgid "Manage your GNOME Extensions"
+msgstr "Konfigur Sambungan-Sambungan Shell GNOME"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+#, fuzzy
+msgid "Main Window"
+msgstr "Tetingkap Daftar Masuk"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+#, fuzzy
+msgid "Search View"
+msgstr "Gelintar"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Konfigur Sambungan-Sambungan Shell GNOME"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+#, fuzzy
+msgid "Error details:"
+msgstr "Tunjuk Perincian"
+
+#: js/extensionRow.js:86
+#, fuzzy, javascript-format
+msgid "Version %s"
+msgstr "Versi"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr ""
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+
+#: js/extensionsWindow.js:116
+#, fuzzy
+msgid "_Cancel"
+msgstr "Batal"
+
+#: js/extensionsWindow.js:117
+#, fuzzy
+msgid "_Remove"
+msgstr "Buang"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] ""
+msgstr[1] ""
+
+#: data/ui/extension-row.ui:20
+#, fuzzy
+msgid "Error Details"
+msgstr "Tunjuk Perincian"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr ""
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+
+#: data/ui/extension-row.ui:107
+#, fuzzy
+msgid "Extension Details"
+msgstr "Cetak perincian sambungan"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr ""
+
+#: data/ui/extension-row.ui:222
+#, fuzzy
+msgid "_Settings"
+msgstr "Tetapan"
+
+#: data/ui/extension-row.ui:249
+#, fuzzy
+msgid "_Remove…"
+msgstr "Buang"
+
+#: data/ui/extensions-window.ui:16
+#, fuzzy
+msgid "Keyboard Shortcuts"
+msgstr "Tunjuk Susun Atur Papan Kekunci"
+
+#: data/ui/extensions-window.ui:20
+#, fuzzy
+msgid "About Extensions"
+msgstr "Senarai sambungan"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr ""
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Gelintar"
+
+#: data/ui/extensions-window.ui:116
+#, fuzzy
+msgid "Search extensions"
+msgstr "Cipta sambungan"
+
+#: data/ui/extensions-window.ui:133
+#, fuzzy
+msgid "_Log Out…"
+msgstr "Daftar Keluar"
+
+#: data/ui/extensions-window.ui:141
+#, fuzzy
+msgid "_Extensions"
+msgstr "Sambungan-Sambungan Shell"
+
+#: data/ui/extensions-window.ui:146
+#, fuzzy
+msgid "More Information"
+msgstr "Maklumat Sistem"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+
+#: data/ui/extensions-window.ui:185
+#, fuzzy
+msgid "User Extensions"
+msgstr "Sambungan-Sambungan Shell"
+
+#: data/ui/extensions-window.ui:194
+#, fuzzy
+msgid "System Extensions"
+msgstr "Sambungan-Sambungan Shell"
+
+#: data/ui/extensions-window.ui:213
+#, fuzzy
+msgid "Search Results"
+msgstr "Gelintar"
+
+#: data/ui/extensions-window.ui:227
+#, fuzzy
+msgid "No Results Found"
+msgstr "Tiada padanan."
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr ""
+
+#: data/ui/extensions-window.ui:239
+#, fuzzy
+msgid "No Installed Extensions"
+msgstr "Senarai sambungan terpasang"
+
+#: data/ui/extensions-window.ui:240
+#, fuzzy
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Sambungan-sambungan boleh dipasang melalui Perisian atau <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Adalah masalah telah berlaku"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Mohon maaf, berkemungkinan boleh dapatkan senarai sambungan terpasang. "
+"Pastikan anda telah mendaftar masuk ke dalam GNOME dan cuba sekali lagi."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:16
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Buka Kalendar"
+
+#: data/ui/shortcuts-dialog.ui:22
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Gelintar"
+
+#: data/ui/shortcuts-dialog.ui:28
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Tunjukkan Ralat"
+
+#: data/ui/shortcuts-dialog.ui:34
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Keluar"

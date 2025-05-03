@@ -1,0 +1,277 @@
+# translation of mr.po to Marathi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sshedmak@redhat.com>, 2011, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: mr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2014-09-16 10:06+0530\n"
+"Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
+"Language-Team: Marathi <maajhe-sanganak@freelists.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+#, fuzzy
+msgid "Extensions"
+msgstr "एक्सटेंशन"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+#, fuzzy
+msgid "Manage your GNOME Extensions"
+msgstr "GNOME शेल एक्सटेंशन्स् संरचीत करा"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+#, fuzzy
+msgid "Main Window"
+msgstr "प्रवेश पटल"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+#, fuzzy
+msgid "Available Updates"
+msgstr "उपलब्ध"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+#, fuzzy
+msgid "Search View"
+msgstr "शोधा"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "GNOME शेल एक्सटेंशन्स् संरचीत करा"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+#, fuzzy
+msgid "Error details:"
+msgstr "तपशील दाखवा"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr ""
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr ""
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+
+#: js/extensionsWindow.js:116
+#, fuzzy
+msgid "_Cancel"
+msgstr "रद्द करा"
+
+#: js/extensionsWindow.js:117
+#, fuzzy
+msgid "_Remove"
+msgstr "काढून टाका"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] ""
+msgstr[1] ""
+
+#: data/ui/extension-row.ui:20
+#, fuzzy
+msgid "Error Details"
+msgstr "तपशील दाखवा"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr ""
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+
+#: data/ui/extension-row.ui:107
+#, fuzzy
+msgid "Extension Details"
+msgstr "एक्सटेंशन"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr ""
+
+#: data/ui/extension-row.ui:222
+#, fuzzy
+msgid "_Settings"
+msgstr "सेटिंग्ज"
+
+#: data/ui/extension-row.ui:249
+#, fuzzy
+msgid "_Remove…"
+msgstr "काढून टाका"
+
+#: data/ui/extensions-window.ui:16
+#, fuzzy
+msgid "Keyboard Shortcuts"
+msgstr "कळफलक सेटिंग्ज"
+
+#: data/ui/extensions-window.ui:20
+#, fuzzy
+msgid "About Extensions"
+msgstr "एक्सटेंशन"
+
+#: data/ui/extensions-window.ui:74
+#, fuzzy
+msgid "Main Menu"
+msgstr "ट्रे मेन्यु"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "शोधा"
+
+#: data/ui/extensions-window.ui:116
+#, fuzzy
+msgid "Search extensions"
+msgstr "GNOME शेल एक्सटेंशन्स"
+
+#: data/ui/extensions-window.ui:133
+#, fuzzy
+msgid "_Log Out…"
+msgstr "बाहेर पडा"
+
+#: data/ui/extensions-window.ui:141
+#, fuzzy
+msgid "_Extensions"
+msgstr "एक्सटेंशन"
+
+#: data/ui/extensions-window.ui:146
+#, fuzzy
+msgid "More Information"
+msgstr "प्रणाली माहिती"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+
+#: data/ui/extensions-window.ui:185
+#, fuzzy
+msgid "User Extensions"
+msgstr "एक्सटेंशन"
+
+#: data/ui/extensions-window.ui:194
+#, fuzzy
+msgid "System Extensions"
+msgstr "एक्सटेंशन"
+
+#: data/ui/extensions-window.ui:213
+#, fuzzy
+msgid "Search Results"
+msgstr "शोधा"
+
+#: data/ui/extensions-window.ui:227
+#, fuzzy
+msgid "No Results Found"
+msgstr "परिणाम नाही."
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr ""
+
+#: data/ui/extensions-window.ui:239
+#, fuzzy
+msgid "No Installed Extensions"
+msgstr "GNOME शेल एक्सटेंशन्स"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr ""
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:16
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "दिनदर्शिका उघडा"
+
+#: data/ui/shortcuts-dialog.ui:22
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "शोधा"
+
+#: data/ui/shortcuts-dialog.ui:28
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "त्रुटी दाखवा"
+
+#: data/ui/shortcuts-dialog.ui:34
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "बाहेर पडा"

@@ -1,0 +1,275 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+#
+# SPDX-FileCopyrightText: 2011, 2024, 2025 Rudolfs <rudolfs.mazurs@gmail.com>
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012, 2013, 2014.
+# Pēteris Krišjānis <pecisk@gmail.com>, 2011.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
+# Vika Leimane <vika.leimane@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2025-05-01 16:55+0300\n"
+"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Paplašinājumi"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Pārvaldiet savus GNOME paplašinājumus"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "\"GNOME projekts\""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"“GNOME paplašinājumi” nodrošina paplašinājumu atjaunināšanu un "
+"konfigurēšanu, kā arī nevajadzīgo paplašinājumu izslēgšanu vai izņemšanu."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Galvenais logs"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Pieejami atjauninājumi"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Meklēšanas skats"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Konfigurēt GNOME Shell paplašinājumus"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Uzinstalētā paplašinājuma versija (%s) nav savietojama ar šo GNOME versiju "
+"(%s). Paplašinājums ir izslēgts."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Uzinstalētā paplašinājuma versija nav savietojama ar šo GNOME versiju (%s). "
+"Paplašinājums ir izslēgts."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Šajā paplašinājumā gadījās kļūda. Tas var radīt problēmas citur sistēmā. Šo "
+"paplašinājumu ir vēlams izslēgt līdz kļūda ir novērsta."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Vairāk par kļūdu:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Versija %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Izņemt “%s”?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Ja izņemsiet paplašinājumu, tad to uzlikt varēs tikai pēc tā lejupielādēšanas"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "At_celt"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Izņemt"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Vika Leimane <vika.leimane@gmail.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "Nākamajā ierakstīšanās reizē tiks atjaunināts %d paplašinājums."
+msgstr[1] "Nākamajā ierakstīšanās reizē tiks atjaunināts %d paplašinājumi."
+msgstr[2] "Nākamajā ierakstīšanās reizē tiks atjaunināts %d paplašinājumu."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Vairāk par kļūdu"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Vairāk par atjauninājumu"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Šim paplašinājumam ir pieejama jauna versija, un tā tiks ielādēta nākamajā "
+"ierakstīšanās reizē."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Informācija par paplašinājumu"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Tīmekļa vietne"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "Ie_statījumi"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Izņemt…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Tastatūras īsinājumtaustiņi"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Par paplašinājumiem"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Galvenā izvēlne"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Meklēt"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Meklēšanas paplašinājumi"
+
+#: data/ui/extensions-window.ui:133
+#, fuzzy
+msgid "_Log Out…"
+msgstr "Izrakstīties…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Paplašinājumi"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Vairāk informācijas"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Paplašinājumi var radīt problēmas ar veiktspēju un stabilitāti. Ja jūsu "
+"sistēmā rodas problēmas, ir ieteicams izslēgt visus paplašinājumus."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Lietotāja paplašinājumi"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Sistēmas paplašinājumi"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Meklēšanas rezultāti"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Nav atrastu rezultātu"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Mēģiniet ar citu meklējamo vārdu"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Nav instalētu paplašinājumu"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Lai atrastu un pievienotu paplašinājumus, apmeklējiet <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Kaut kas nogāja greizi"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Diemžēl nevar saņemt sarakstu ar instalētajiem paplašinājumiem. "
+"Pārliecinieties, ka esat ierakstījušies GNOME sesijā un mēģiniet vēlreiz."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Vispārīgi"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Atvērt izvēlni"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Pārslēgt meklēšanu"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Rādīt saīsnes"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Iziet"

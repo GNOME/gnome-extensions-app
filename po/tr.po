@@ -1,0 +1,278 @@
+# Turkish translation of gnome-extensions-app
+# Copyright (C) 2009, 2011 the Free Software Foundation, Inc.
+# Copyright (C) 2012-2025 gnome-extensions-app'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-extensions-app package.
+#
+# Baris Cicek <baris@teamforce.name.tr>, 2009.
+# ercin <ercin@linux.org.tr>, 2011.
+# Osman Karagöz <osmank3@gmail.com>, 2013.
+# Bayram Güçlü <byrmgcl@yandex.com.tr>, 2014.
+# Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2014.
+# Muhammet Kara <muhammetk@gmail.com>, 2011-2017.
+# Furkan Ahmet Kara <furkanahmetkara.fk@gmail.com>, 2017, 2018.
+# Sabri Ünal <yakushabb@gmail.com>, 2014, 2019, 2020, 2023-2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-05-18 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Language-Team: Turkish <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Uzantılar"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "GNOME Uzantılarını Yönet"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "GNOME Projesi"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"GNOME Uzantılar; uzantıları güncellemeyi, uzantı tercihlerini yapılandırmayı "
+"ve istenmeyen uzantıları kaldırmayı ya da devre dışı bırakmanızı sağlar."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Ana Pencere"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Kullanılabilir Güncellemeler"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Arama Görünümü"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "GNOME Kabuğu Uzantılarını Ayarla"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Bu uzantının kurulu sürümü (%s) geçerli GNOME (%s) sürümüyle uyumsuz. Uzantı "
+"devre dışı bırakıldı."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Bu uzantının kurulu sürümü geçerli GNOME (%s) sürümüyle uyumsuz. Uzantı "
+"devre dışı bırakıldı."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Bu uzantıda hata oluştu. Bu, sistemin herhangi bir yerinde sorunlara neden "
+"olabilir. Hata çözülene dek uzantıyı kapatmanız önerilir."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Hata ayrıntıları:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Sürüm %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "“%s” Kaldırılsın Mı?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Uzantıyı kaldırırsanız, yeniden etkinleştirmek istediğinizde yeniden "
+"indirmeniz gerekir"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "İ_ptal"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Kaldır"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>\n"
+"Muhammet Kara <muhammetk@gmail.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d uzantı sonraki oturum açılışında güncellenecek."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Hata Ayrıntıları"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Güncelleme Ayrıntıları"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Bu uzantının yeni sürümü hazır ve sonraki oturum açılışında yüklenecek."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Uzantı Ayrıntıları"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Web Sitesi"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Ayarlar"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Kaldır…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Klavye Kısayolları"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Uzantılar Hakkında"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Ara"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Uzantı ara"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Oturumu Kapat…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Uzantılar"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Daha Çok Bilgi"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Uzantılar başarım ve kararlılık sorunlarına neden olabilir. Sisteminizde "
+"sorun yaşarsanız tüm uzantıları devre dışı bırakmanız önerilir."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Kullanıcı Uzantıları"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Sistem Uzantıları"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Arama Sonuçları"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Sonuç Bulunamadı"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Başka arama deneyin"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Yüklü Uzantı Yok"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Uzantı bulmak ve eklemek için <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a> adresine göz atın."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Bir şeyler ters gitti"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Üzgünüz, kurulu uzantıların listesi alınamadı. GNOME’da oturum açtığınızdan "
+"emin olun ve yeniden deneyin."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Genel"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Menüyü Aç"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Aramayı Değiştir"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Kısayolları Göster"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çık"

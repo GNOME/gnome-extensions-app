@@ -1,0 +1,267 @@
+# Punjabi translation for gnome-extensions-app.
+# Copyright (C) 2009 gnome-extensions-app's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-extensions-app package.
+# SPDX-FileCopyrightText: 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 A S Alam <aalam@users.sf.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2025-03-14 16:52-0500\n"
+"Last-Translator: A S Alam <aalam@punlinux.org>\n"
+"Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.12.3\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "ਇਕਸਟੈਨਸ਼ਨ"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "ਗਨੋਮ ਇਕਸਟੈਸ਼ਨਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "ਗਨੋਮ ਪਰੋਜੈਕਟ"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"ਗਨੋਮ ਇਕਸਟੈਨਸ਼ਨਾਂ ਇਕਸਟੈਨਸ਼ਨਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ, ਇਕਸਟੈਨਸ਼ਨ ਪਸੰਦਾਂ ਦੀ ਸੰਰਚਨਾ ਕਰਨ ਅਤੇ ਬੇਲੋੜੀਆਂ "
+"ਇਕਸਟੈਨਸ਼ਨਾਂ ਹਟਾਉਣ ਜਾਂ ਅਸਮਰੱਥ ਕਰਨ ਦੇ ਕੰਮ ਆਉਂਦੀਆਂ ਹਨ।"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "ਮੁੱਖ ਵਿੰਡੋ"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "ਅੱਪਡੇਟ ਮੌਜੂਦ ਹਨ"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "ਖੋਜ ਝਲਕ"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "ਗਨੋਮ ਸ਼ੈਲ ਇਕਸਟੈਸ਼ਨਾਂ ਦੀ ਸੰਰਚਨਾ"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"ਇਕਸਟੈਨਸ਼ਨ ਦਾ ਇੰਸਟਾਲ ਕੀਤਾ ਵਰਜ਼ਨ (%s) ਮੌਜੂਦਾ ਗਨੋਮ ਵਰਜ਼ਨ (%s) ਨਾਲ ਅਨੁਕੂਲ ਨਹੀਂ ਹੈ। ਇਕਸਟੈਨਸ਼ਨ ਨੂੰ "
+"ਅਸਮਰੱਥ ਕੀਤਾ ਹੈ।"
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"ਇਕਸਟੈਨਸ਼ਨ ਦਾ ਇੰਸਟਾਲ ਕੀਤਾ ਵਰਜ਼ਨ ਮੌਜੂਦਾ ਗਨੋਮ ਵਰਜ਼ਨ (%s) ਨਾਲ ਅਨੁਕੂਲ ਨਹੀਂ ਹੈ। ਇਕਸਟੈਨਸ਼ਨ ਨੂੰ "
+"ਅਸਮਰੱਥ ਕੀਤਾ ਹੈ।"
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"ਇਸ ਇਕਸਟੈਨਸ਼ਨ ਵਿੱਚ ਗਲਤੀ ਆਈ ਹੈ। ਇਹ ਸਿਸਟਮ ਵਿੱਚ ਕਿਤੇ ਹੋਰ ਮਸਲਾ ਹੋ ਸਕਦਾ ਹੈ। ਗਲਤੀ ਠੀਕ ਹੋਣ ਤੱਕ "
+"ਇਕਸਟੈਨਸ਼ਨ ਨੂੰ ਬੰਦ ਰੱਖਣ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।"
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "ਗਲਤੀ ਦੇ ਵੇਰਵੇ:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "ਵਰਜ਼ਨ %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "“%s” ਨੂੰ ਹਟਾਉਣਾ ਹੈ?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"ਜੇ ਤੁਸੀਂ ਇਕਟੈਨਸ਼ਨ ਹਟਾਈ ਤਾਂ ਜੇ ਤੁਹਾਨੂੰ ਮੁੜ ਇਹ ਸਮਰੱਥ ਕਰਨਾ ਦੀ ਲੋੜ ਹੋਈ ਤਾਂ ਤੁਹਾਨੂੰ ਇਹ ਦੁਬਾਰਾ ਡਾਊਨਲੋਡ "
+"ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "ਰੱਦ ਕਰੋ(_C)"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "ਹਟਾਓ(_R)"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"ਅ ਸ ਆਲਮ (A S Alam) ੨੦੦੪-੨੦੨੪\n"
+"Punjabi OpenSource Team (POST) www.punlinux.org"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d ਇਕਟੈਨਸ਼ਨ ਨੂੰ ਅਗਲੇ ਲਾਗਇਨ ਉੱਤੇ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
+msgstr[1] "%d ਇਕਟੈਨਸ਼ਨਾਂ ਨੂੰ ਅਗਲੇ ਲਾਗਇਨ ਉੱਤੇ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "ਗਲਤੀ ਦੇ ਵੇਰਵੇ"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "ਅੱਪਡੇਟ ਦੇ ਵੇਰਵੇ"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr "ਇਕਟੈਨਸ਼ਨ ਦਾ ਨਵਾਂ ਵਰਜ਼ਨ ਮੌਜੂਦ ਹੈ ਅਤੇ ਅਗਲੇ ਲਾਗਇਨ ਉੱਤੇ ਲੋਡ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "ਇਕਸਟੈਨਸ਼ਨ ਦੇ ਵੇਰਵੇ"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "ਵੈੱਬਸਾਈਟ(_W)"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "ਸੈਟਿੰਗਾਂ(_S)"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "…ਨੂੰ ਹਟਾਓ(_R)"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "ਕੀਬੋਰਡ ਸ਼ਾਰਟਕਟ"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "ਇਕਸਟੈਨਸ਼ਨਾਂ ਬਾਰੇ"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "ਮੁੱਖ ਮੇਨੂ"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "ਖੋਜ"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "ਇਕਸਟੈਨਸ਼ਨਾਂ ਦੀ ਖੋਜ"
+
+#: data/ui/extensions-window.ui:133
+#, fuzzy
+msgid "_Log Out…"
+msgstr "ਲਾਗ ਆਉਟ…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "ਇਕਸਟੈਨਸ਼ਨਾਂ(_E)"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "ਹੋਰ ਜਾਣਕਾਰੀ"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"ਇਕਸਟੈਨਸ਼ਨਾਂ ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਸਥਿਰਤਾਂ ਮਸਲੇ ਖੜ੍ਹੇ ਕਰ ਸਕਦੀਆਂ ਹਨ। ਜੇ ਤੁਹਾਨੂੰ ਆਪਣੇ ਸਿਸਟਮ ਨਾਲ "
+"ਸਮੱਸਿਆਵਾਂ ਆ ਰਹੀਆਂ ਹੋਣ ਤਾਂ ਸਾਰੀਆਂ ਇਕਸਟੈਨਸ਼ਨਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕਰਨ ਦੀ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।"
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "ਵਰਤੋਂਕਾਰ ਦੀਆਂ ਇਕਸਟੈਨਸ਼ਨਾਂ"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "ਸਿਸਟਮ ਦੀਆਂ ਇਕਸਟੈਨਸ਼ਨਾਂ"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "ਖੋਜ ਨਤੀਜੇ"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਲੱਭਾ"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "ਵੱਖਰੀ ਖੋਜ ਨਾਲ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "ਕੋਈ ਇੰਸਟਾਲ ਕੀਤੀ ਇਕਟੈਨਸ਼ਨ ਨਹੀਂ ਹੈ"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"ਇਕਸਟੈਨਸ਼ਨ ਲੱਭਣ ਅਤੇ ਜੋੜਨ ਲਈ <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a> ਨੂੰ ਵੇਖੋ।"
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"ਸਾਨੂੰ ਬਹੁਤ ਅਫ਼ਸੋਸ ਹੈ, ਪਰ ਇੰਸਟਾਲ ਹੋਈਆਂ ਇਕਸਟੈਨਸ਼ਨਾਂ ਦੀ ਸੂਚੀ ਲੈਣਾ ਸੰਭਵ ਨਹੀਂ ਹੈ। ਯਕੀਨੀ ਬਣਾਓ ਕਿ "
+"ਤੁਸੀਂ ਗਨੋਮ ਵਿੱਚ ਲਾਗਇਨ ਕੀਤਾ ਹੈ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "ਆਮ"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "ਮੇਨੂ ਖੋਲ੍ਹੋ"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "ਖੋਜ ਨੂੰ ਬਦਲੋ"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "ਸ਼ਾਰਟਕੱਟ ਵੇਖਾਓ"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "ਬਾਹਰ"

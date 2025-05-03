@@ -1,0 +1,285 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# , 2014.
+# Akarshan Biswas <akarshan.biswas@hotmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2020-10-11 12:33+0530\n"
+"Last-Translator: Akarshan Biswas <akarshan.biswas@hotmail.com>\n"
+"Language-Team: Bengali <anubad@lists.ankur.org.in>\n"
+"Language: bn_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-DamnedLies-Scope: partial\n"
+"X-Generator: Gtranslator 3.38.0\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "এক্সটেনশনগুলি"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "আপনার জিনোম এক্সটেনশনগুলি পরিচালনা করুন"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "জিনোম প্রকল্প"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"জিনোম এক্সটেনশনস এক্সটেনশানগুলি আপডেট করতে, এক্সটেনশান পছন্দগুলি কনফিগার করে এবং "
+"অযাচিত এক্সটেনশানগুলি সরিয়ে বা অক্ষম করে।"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+#, fuzzy
+msgid "Main Window"
+msgstr "লগিন উইন্ডো"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr ""
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+#, fuzzy
+msgid "Search View"
+msgstr "অনুসন্ধান"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "GNOME সেল এক্সটেনশন কনফিগার করুন"
+
+#: js/extensionManager.js:241
+#, fuzzy, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr "এক্সটেনশনটি বর্তমান জিনোম সংস্করণের সাথে বেমানান"
+
+#: js/extensionManager.js:242
+#, fuzzy, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr "এক্সটেনশনটি বর্তমান জিনোম সংস্করণের সাথে বেমানান"
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+#, fuzzy
+msgid "Error details:"
+msgstr "বিবরণ প্রদর্শন করা হবে"
+
+#: js/extensionRow.js:86
+#, fuzzy, javascript-format
+msgid "Version %s"
+msgstr "সংস্করণ"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "“%s” সরাবেন? "
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"আপনি যদি এক্সটেনশনটি সরিয়ে থাকেন তবে আপনি যদি আবার সক্ষম করতে চান তবে এটি "
+"ডাউনলোড করতে আপনাকে ফিরে যেতে হবে"
+
+#: js/extensionsWindow.js:116
+#, fuzzy
+msgid "_Cancel"
+msgstr "বাতিল"
+
+#: js/extensionsWindow.js:117
+#, fuzzy
+msgid "_Remove"
+msgstr "মুছে ফেলুন"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr "অনুবাদক-ক্রেডিট"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d টা এক্সটেনশন পরবর্তী লগইন আপডেট করা হবে।"
+msgstr[1] "%d টি এক্সটেনশনগুলি পরবর্তী লগইন আপডেট করা হবে।"
+
+#: data/ui/extension-row.ui:20
+#, fuzzy
+msgid "Error Details"
+msgstr "বিবরণ প্রদর্শন করা হবে"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr ""
+
+#: data/ui/extension-row.ui:75
+#, fuzzy
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr "%d টা এক্সটেনশন পরবর্তী লগইন আপডেট করা হবে।"
+
+#: data/ui/extension-row.ui:107
+#, fuzzy
+msgid "Extension Details"
+msgstr "এক্সটেনশান বিশদ প্রিন্ট করুন"
+
+#: data/ui/extension-row.ui:195
+#, fuzzy
+msgid "_Website"
+msgstr "ওয়েবসাইট"
+
+#: data/ui/extension-row.ui:222
+#, fuzzy
+msgid "_Settings"
+msgstr "সেটিং"
+
+#: data/ui/extension-row.ui:249
+#, fuzzy
+msgid "_Remove…"
+msgstr "সরান..."
+
+#: data/ui/extensions-window.ui:16
+#, fuzzy
+msgid "Keyboard Shortcuts"
+msgstr "কীবোর্ড সজ্জা দেখান"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "এক্সটেনশন সম্পর্কে"
+
+#: data/ui/extensions-window.ui:74
+#, fuzzy
+msgid "Main Menu"
+msgstr "ট্রে মেনু"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "অনুসন্ধান"
+
+#: data/ui/extensions-window.ui:116
+#, fuzzy
+msgid "Search extensions"
+msgstr "এক্সটেনশন তৈরি করুন"
+
+#: data/ui/extensions-window.ui:133
+#, fuzzy
+msgid "_Log Out…"
+msgstr "লগ আউট..."
+
+#: data/ui/extensions-window.ui:141
+#, fuzzy
+msgid "_Extensions"
+msgstr "এক্সটেনশনগুলি"
+
+#: data/ui/extensions-window.ui:146
+#, fuzzy
+msgid "More Information"
+msgstr "সিস্টেম তথ্য"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+
+#: data/ui/extensions-window.ui:185
+#, fuzzy
+msgid "User Extensions"
+msgstr "এক্সটেনশনগুলি"
+
+#: data/ui/extensions-window.ui:194
+#, fuzzy
+msgid "System Extensions"
+msgstr "এক্সটেন্সানগুলির তালিকা দেখান"
+
+#: data/ui/extensions-window.ui:213
+#, fuzzy
+msgid "Search Results"
+msgstr "অনুসন্ধান"
+
+#: data/ui/extensions-window.ui:227
+#, fuzzy
+msgid "No Results Found"
+msgstr "কোনো ফলাফল নেই।"
+
+#: data/ui/extensions-window.ui:228
+#, fuzzy
+msgid "Try a different search"
+msgstr "অনুসন্ধান করতে লিখুন"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "কোনও ইনস্টল করা এক্সটেনশন নেই"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"এক্সটেনশানগুলি সন্ধান এবং যুক্ত করতে, <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a> দেখুন।"
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "কিছু ভুল হয়েছে"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"আমরা খুব দুঃখিত, তবে ইনস্টল হওয়া এক্সটেনশনের তালিকা পাওয়া সম্ভব ছিল না। নিশ্চিত "
+"হয়ে নিন যে আপনি জিনোমে লগইন করেছেন এবং আবার চেষ্টা করুন।"
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: data/ui/shortcuts-dialog.ui:16
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "ক্যালেন্ডার খুলুন"
+
+#: data/ui/shortcuts-dialog.ui:22
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "অনুসন্ধান"
+
+#: data/ui/shortcuts-dialog.ui:28
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "ত্রুটি দেখান"
+
+#: data/ui/shortcuts-dialog.ui:34
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "প্রস্থান"

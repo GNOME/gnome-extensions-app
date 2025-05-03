@@ -1,0 +1,276 @@
+# Hungarian translation for gnome-extensions-app.
+# Copyright 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-extensions-app package.
+#
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016.
+# Lukács Bence <lukacs.bence1 at gmail dot com>, 2012.
+# Balázs Meskó <mesko.balazs at fsf dot hu>, 2014, 2019, 2020, 2021, 2024.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-02-22 17:54+0100\n"
+"Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
+"Language-Team: Hungarian <openscope at fsf dot hu>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Kiterjesztések"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Saját GNOME kiterjesztések kezelése"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "A GNOME projekt"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"A GNOME kiterjesztések kezeli a kiterjesztések frissítését, a "
+"kiterjesztésbeállítások konfigurálást és a nem kívánatos kiterjesztések "
+"eltávolítását vagy letiltását."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Főablak"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Elérhető frissítések"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Keresési nézet"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "GNOME Shell kiterjesztések beállítása"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"A kiterjesztés telepített verziója (%s) nem kompatibilis a jelenlegi GNOME "
+"verzióval (%s). A kiterjesztés le lett tiltva."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"A kiterjesztés telepített verziója nem kompatibilis a jelenlegi GNOME "
+"verzióval (%s). A kiterjesztés le lett tiltva."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Hiba történt ebben a kiterjesztésben. Ez problémákat okozhat máshol a "
+"rendszeren. Ajánlott addig kikapcsolni a kiterjesztést, amíg a hiba "
+"megoldódik."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Hiba részletei:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Verzió: %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Eltávolítja ezt: „%s”?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Ha eltávolítja a kiterjesztést, akkor vissza kell térnie a letöltéshez, ha "
+"újra engedélyezni akarja."
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Mégse"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Eltávolítás"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Meskó Balázs <mesko dot balazs at fsf dot hu>\n"
+"Úr Balázs <ur dot balazs at fsf dot hu>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d kiterjesztés lesz frissítve a következő bejelentkezéskor."
+msgstr[1] "%d kiterjesztés lesz frissítve a következő bejelentkezéskor."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Hiba részletei"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Frissítés részletei"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"A kiterjesztés új verziója készen áll, és be lesz töltve a következő "
+"bejelentkezéskor."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Kiterjesztés részletei"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Webhely"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Beállítások"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Eltávolítás…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Gyorsbillentyűk"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "A kiterjesztések névjegye"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Főmenü"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Oldalsáv"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Kiterjesztések keresése"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Kijelentkezés…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Kiterjesztések"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "További információk"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"A kiterjesztések teljesítménybeli és stabilitási problémákat okozhatnak. "
+"Ajánlott letiltani az összes kiterjesztést, ha problémákat tapasztal a "
+"rendszerével kapcsolatban."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Felhasználói kiterjesztések"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Rendszerkiterjesztések"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Keresési találatok"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Nincs találat"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Próbáljon egy másik keresést"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Nincsenek telepített kiterjesztések"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"A kiterjesztések megtalálásához és hozzáadásához keresse fel az <a "
+"href=\"https://extensions.gnome.org\">extensions.gnome.org</a> oldalt."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Valami elromlott"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Sajnáljuk, de nem volt lehetséges lekérni a telepített kiterjesztések "
+"listáját. Győződjön meg róla, hogy bejelentkezett a GNOME-ba, és próbálja "
+"meg újra."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Általános"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Menü megnyitása"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Keresés be- és kikapcsolása"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Gyorsbillentyűk megjelenítése"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Kilépés"

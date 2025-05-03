@@ -1,0 +1,276 @@
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2013, 2014.
+# Kasia Bondarava <kasia.bondarava@gmail.com>, 2012.
+# Yuras Shumovich <shumovichy@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2025-03-08 00:26+0300\n"
+"Last-Translator: Kanviertar Tradycyjny\n"
+"Language-Team: i18n@mova.org <i18n@mova.org>\n"
+"Language: be@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Project-Style: gnome\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Pašyrenni"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Kiravannie pašyrenniami GNOME"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Prajekt GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"Pašyrenni GNOME ažycciaŭlajuć abnaŭlennie i zmianiennie paramietraŭ "
+"pašyrenniaŭ, vydalennie abo adklučennie niepažadanych pašyrenniaŭ."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Hałoŭnaje akno"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Dastupny abnaŭlenni"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Pošuk"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Naładzić pašyrenni abałonki GNOME"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Ustalavanaja viersija pašyrennia (%s) niesumiaščalnaja z biahučaj viersijaj "
+"GNOME (%s). Pašyrennie adklučana."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Ustalavanaja viersija pašyrennia niesumiaščalnaja z biahučaj viersijaj GNOME "
+"(%s). Pašyrennie adklučana."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"U hetym pašyrenni adbyłasia pamyłka, što moža pryviesci da prablem u inšych "
+"častkach sistemy. Pakul pamyłka nie budzie vypraŭlena, rekamiendujecca "
+"adklučyć pašyrennie."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Padrabiaznasci pamyłki:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Viersija %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Vydalić «%s»?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Kali vydalić pašyrennie i potym uklučyć jaho znoŭ, spatrebicca paŭtornaje "
+"spampoŭvannie"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Skasavać"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Vydalić"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Kasia Bondarava <kasia.bondarava@gmail.com>\n"
+"Yuras Shumovich <shumovichy@gmail.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "Padčas nastupnaha ŭvachodu ŭ sistemu abnovicca %d pašyrennie."
+msgstr[1] "Padčas nastupnaha ŭvachodu ŭ sistemu abnovicca %d pašyrenni."
+msgstr[2] "Padčas nastupnaha ŭvachodu ŭ sistemu abnovicca %d pašyrenniaŭ."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Padrabiaznasci pamyłki"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Padrabiaznasci abnaŭlennia"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Novaja viersija pašyrennia hatova da vykarystannia, jana budzie zahružana "
+"padčas nastupnaha ŭvachodu ŭ sistemu."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Zviestki ab pašyrenni"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "_Veb-sajt"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Nałady"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Vydalić…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Spałučenni kłaviš"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Pra pašyrenni"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Hałoŭnaje mieniu"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Pošuk"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Pošuk pašyrenniaŭ"
+
+#: data/ui/extensions-window.ui:133
+#, fuzzy
+msgid "_Log Out…"
+msgstr "Vyjsci…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Pašyrenni"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Dadatkovyja zviestki"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Pašyrenni mohuć vyklikać prablemy z pradukcyjnasciu i stabilnasciu. "
+"Rekamiendujecca adklučyć usie pašyrenni, kali vy sutyknulisia z prablemami ŭ "
+"svajoj sistemie."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Pašyrenni karystalnika"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Sistemnyja pašyrenni"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Vyniki pošuku"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Ničoha nie znojdziena"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Pasprabujcie zmianić pošukavy zapyt"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Niama ŭstalavanych pašyrenniaŭ"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Kab znajsci i dadać pašyrenni, naviedajcie <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+#, fuzzy
+msgid "Something’s gone wrong"
+msgstr "Niešta pajšło nie tak"
+
+#: data/ui/extensions-window.ui:251
+#, fuzzy
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Na žal, niemahčyma atrymać spis ustalavanych pašyrenniaŭ. Praviercie, ci "
+"ŭvajšli vy ŭ GNOME i paŭtarycie sprobu."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Ahulnyja"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Adkryć mieniu"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Pošuk"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Pakazać spałučenni kłaviš"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Vyjsci"

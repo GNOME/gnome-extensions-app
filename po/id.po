@@ -1,0 +1,278 @@
+# Copyright (C) 2010 THE gnome-extensions-app'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-extensions-app package.
+#
+# Andika Triwidada <andika@gmail.com>, 2010-2014, 2017, 2022-2025.
+# Dirgita <dirgitadevina@yahoo.co.id>, 2011, 2012, 2014.
+# Wibiharto <wibinem@yahoo.com>, 2011.
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2024.
+# Sucipto <sucipto@pm.me>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app gnome-49\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2025-11-24 19:40+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+"X-DamnedLies-Scope: partial\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Ekstensi"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Kelola Ekstensi GNOME Anda"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "Proyek GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"Ekstensi GNOME menangani pemutakhiran ekstensi, mengkonfigurasi preferensi "
+"ekstensi, dan menghapus atau menonaktifkan ekstensi yang tidak diinginkan."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Jendela Utama"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Pemutakhiran yang Tersedia"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Tampilan Pencarian"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Konfigurasi Ekstensi GNOME Shell"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Versi terpasang ekstensi ini (%s) tidak kompatibel dengan versi GNOME (%s) "
+"saat ini. Ekstensi telah dinonaktifkan."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"Versi terpasang ekstensi ini tidak kompatibel dengan versi GNOME (%s) saat "
+"ini. Ekstensi telah dinonaktifkan."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"Terjadi kesalahan pada ekstensi ini. Hal ini dapat menyebabkan masalah di "
+"bagian lain sistem. Disarankan untuk mematikan ekstensi hingga galat "
+"teratasi."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Detail galat:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Versi %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Hapus \"%s\"?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Jika Anda menghapus ekstensi, Anda harus kembali untuk mengunduhnya jika "
+"Anda ingin mengaktifkannya lagi"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "Bata_l"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Hapus"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Andika Triwidada <andika@gmail.com>, 2010-2014, 2017, 2022-2025.\n"
+"Dirgita <dirgitadevina@yahoo.co.id>, 2011, 2012, 2014.\n"
+"Wibiharto <wibinem@yahoo.com>, 2011.\n"
+"Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2024.\n"
+"Sucipto <sucipto@pm.me>, 2020"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d ekstensi akan diperbarui pada log masuk berikutnya."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Detail Galat"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Detail Pemutakhiran"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Versi baru dari ekstensi ini telah siap dan akan dimuat pada log masuk "
+"berikutnya."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Detail Ekstensi"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "Situs _Web"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Pengaturan"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Hapus…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Pintasan Papan Tik"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Tentang Ekstensi"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Menu Utama"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Cari"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Cari ekstensi"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "Ke_luar…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Ekstensi"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Informasi Lebih Lanjut"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Ekstensi dapat menyebabkan masalah kinerja dan stabilitas. Disarankan untuk "
+"menonaktifkan semua ekstensi jika Anda mengalami masalah dengan sistem Anda."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Ekstensi Pengguna"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Ekstensi Sistem"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Hasil Pencarian"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "Tak Ada Hasil yang Ditemukan"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Cobalah pencarian lain"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "Tidak Ada Ekstensi Terpasang"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Untuk menemukan dan menambahkan ekstensi, kunjungi <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Ada yang tidak beres"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"Kami sangat menyesal, tetapi tidak mungkin mendapatkan daftar ekstensi yang "
+"dipasang. Pastikan Anda masuk ke GNOME dan coba lagi."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Umum"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Buka Menu"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Jungkitkan Pencarian"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Tampilkan Pintasan"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Keluar"

@@ -1,0 +1,280 @@
+# Catalan gnome-extensions-app translation.
+# Copyright (C) 2009 Siegfried-Angel Gevatter Pujals <rainct@ubuntu.com>
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Siegfried-Angel Gevatter Pujals <rainct@ubuntu.com>, 2009.
+# Jordi Serratosa <jordis@softcatala.cat>, 2012, 2017.
+# Gil Forcada <gilforcada@guifi.net>, 2010, 2011, 2013, 2014, 2016, 2018.
+# Jordi Mas i Hernàndez <jmas@softcatala.org>, 2017-2025
+#
+# La terminologia que usem està documentada a la traducció del gnome-control-center
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2026-04-03 22:19+0100\n"
+"Last-Translator: Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "Extensions"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "Gestioneu les extensions del GNOME Shell"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "El projecte GNOME"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"Les extensions del GNOME gestiona les actualitzacions de les extensions, "
+"configurant les preferències de l'extensió i suprimint o desactivant les "
+"extensions no desitjades."
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "Finestra principal"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "Actualitzacions disponibles"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "Vista de cerca"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "Configureu les extensions del GNOME Shell"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"La versió instal·lada d'aquesta extensió (%s) és incompatible amb la versió "
+"actual del GNOME (%s). S'ha desactivat l'extensió."
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"La versió instal·lada d'aquesta extensió és incompatible amb la versió "
+"actual del GNOME (%s). S'ha desactivat l'extensió."
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"S'ha produït un error en aquesta extensió. Això podria causar problemes en "
+"altres parts del sistema. Es recomana apagar l'extensió fins que es resolgui "
+"l'error."
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "Detalls de l'error:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "Versió %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "Voleu suprimir «%s»?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"Si suprimiu una extensió, us cal tornar-la a baixar si voleu habilitar-la de "
+"nou"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "_Cancel·la"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "_Suprimeix"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"siegfried-Angel Gevatter Pujals <rainct@ubuntu.com>\n"
+"Jordi Serratosa <jordis@softcatala.cat>\n"
+"Gil Forcada <gilforcada@guifi.net>\n"
+"Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
+"Miquel-Àngel Burgos i Fradeja <miquel.angel.burgos@gmail.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "%d extensió serà actualitzada la següent vegada que entreu."
+msgstr[1] "%d extensions seran actualitzades la següent vegada que entreu."
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "Detalls de l'error"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "Detalls de l'actualització"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr ""
+"Una nova versió d'aquesta extensió està llesta i es carregarà en el següent "
+"inici de sessió."
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "Detalls de l'extensió"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "Lloc _web"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "_Paràmetres"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "_Suprimeix…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "Dreceres de teclat"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "Quant a les extensions"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "Cerca"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "Cerca extensions"
+
+#: data/ui/extensions-window.ui:133
+msgid "_Log Out…"
+msgstr "_Tanca la sessió…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "_Extensions"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "Més informació"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"Les extensions poden causar problemes de rendiment i estabilitat. Es "
+"recomana inhabilitar les extensions si teniu problemes amb el vostre sistema."
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "Extensions d'usuari"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "Extensions del sistema"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "Resultats de la cerca"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "No s'ha trobat cap resultat"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "Proveu una cerca diferent"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "No hi ha cap extensió instal·lada"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"Per a trobar i afegir extensions, visiteu <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "Alguna cosa ha anat malament"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"No s'ha pogut obtenir la llista d'extensions instal·lades. Assegureu-vos que "
+"heu entrat al GNOME i torneu a provar-ho."
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "General"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Obre el menú"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "Commuta la cerca"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Mostra les dreceres"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Surt"

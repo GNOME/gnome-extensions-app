@@ -1,0 +1,274 @@
+# translation of gnome-extensions-app.master.hi.po to Hindi
+# Hindi translation for gnome-extensions-app.
+# Copyright (C) 2011 gnome-extensions-app's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-extensions-app package.
+# Translators:
+# Rajesh <rranjan>, 2011.
+# rajesh <rajeshkajha@yahoo.com>, 2012, 2013, 2014.
+# chandankumar <chandankumar.093047@gmail.com>, 2012.
+# Hemish <hemish04082005@gmail.com>, 2022-2023.
+# Scrambled777 <weblate.scrambled777@simplelogin.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extensions-app.master.hi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-26 18:44+0200\n"
+"PO-Revision-Date: 2024-07-27 13:49+0530\n"
+"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
+"Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 46.1\n"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:13
+#: data/org.gnome.Extensions.desktop.in.in:3 data/ui/extensions-window.ui:67
+msgid "Extensions"
+msgstr "एक्सटेंशन्स"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:14
+msgid "Manage your GNOME Extensions"
+msgstr "अपने गनोम एक्सटेंशन प्रबंधित करें"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:28
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:30
+msgid "The GNOME Project"
+msgstr "गनोम परियोजना"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:60
+msgid ""
+"GNOME Extensions handles updating extensions, configuring extension "
+"preferences and removing or disabling unwanted extensions."
+msgstr ""
+"'गनोम एक्सटेंशन्स' एक्सटेंशन को अद्यतन करने, एक्सटेंशन वरीयताओं को विन्यस्त करने और अवांछित "
+"एक्सटेंशन को हटाने या अक्षम करने का काम संभालता है।"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+msgid "Main Window"
+msgstr "मुख्य विंडो"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+msgid "Available Updates"
+msgstr "उपलब्ध अद्यतन"
+
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+msgid "Search View"
+msgstr "खोज दृश्य"
+
+#: data/org.gnome.Extensions.desktop.in.in:6
+msgid "Configure GNOME Shell Extensions"
+msgstr "गनोम शैल एक्सटेंशन विन्यस्त करें"
+
+#: js/extensionManager.js:241
+#, javascript-format
+msgid ""
+"The installed version of this extension (%s) is incompatible with the "
+"current version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"इस एक्सटेंशन (%s) का स्थापित संस्करण गनोम (%s) के वर्तमान संस्करण के साथ असंगत है। एक्सटेंशन "
+"को अक्षम कर दिया गया है।"
+
+#: js/extensionManager.js:242
+#, javascript-format
+msgid ""
+"The installed version of this extension is incompatible with the current "
+"version of GNOME (%s). The extension has been disabled."
+msgstr ""
+"इस एक्सटेंशन का स्थापित संस्करण गनोम (%s) के वर्तमान संस्करण के साथ असंगत है। एक्सटेंशन अक्षम "
+"कर दिया गया है।"
+
+#: js/extensionManager.js:246
+msgid ""
+"An error has occurred in this extension. This could cause issues elsewhere "
+"in the system. It is recommended to turn the extension off until the error "
+"is resolved."
+msgstr ""
+"इस एक्सटेंशन में एक त्रुटि उत्पन्न हुई है। इससे सिस्टम में अन्यत्र समस्याएं उत्पन्न हो सकती हैं। "
+"त्रुटि का समाधान होने तक एक्सटेंशन को बंद रखने की अनुशंसा की जाती है।"
+
+#. translators: Details for an extension error
+#: js/extensionManager.js:252
+msgid "Error details:"
+msgstr "त्रुटि विवरण:"
+
+#: js/extensionRow.js:86
+#, javascript-format
+msgid "Version %s"
+msgstr "संस्करण %s"
+
+#: js/extensionsWindow.js:112
+#, javascript-format
+msgid "Remove “%s”?"
+msgstr "“%s” को हटाएं?"
+
+#: js/extensionsWindow.js:113
+msgid ""
+"If you remove the extension, you need to return to download it if you want "
+"to enable it again"
+msgstr ""
+"यदि आप एक्सटेंशन को हटाते हैं, तो आपको इसे डाउनलोड करने के लिए वापस लौटना होगा यदि आप "
+"इसे फिर से सक्षम करना चाहते हैं"
+
+#: js/extensionsWindow.js:116
+msgid "_Cancel"
+msgstr "रद्द करें (_C)"
+
+#: js/extensionsWindow.js:117
+msgid "_Remove"
+msgstr "हटाएं (_R)"
+
+#: js/extensionsWindow.js:157
+msgid "translator-credits"
+msgstr ""
+"Hemish (हेमिश) <hemish04082005@gmail.com>\n"
+"Scrambled777 <weblate.scrambled777@simplelogin.com>"
+
+#: js/extensionsWindow.js:202
+#, javascript-format
+msgid "%d extension will be updated on next login."
+msgid_plural "%d extensions will be updated on next login."
+msgstr[0] "अगले लॉगिन पर %d एक्सटेंशन अद्यतित किया जाएगा।"
+msgstr[1] "अगले लॉगिन पर %d एक्सटेंशन्स अद्यतित किए जाएंगे।"
+
+#: data/ui/extension-row.ui:20
+msgid "Error Details"
+msgstr "त्रुटि विवरण"
+
+#: data/ui/extension-row.ui:58
+msgid "Updates Details"
+msgstr "अद्यतन विवरण"
+
+#: data/ui/extension-row.ui:75
+msgid ""
+"A new version of this extension is ready and will be loaded on next login."
+msgstr "इस एक्सटेंशन का नया संस्करण तैयार है और अगले लॉगिन पर लोड किया जाएगा।"
+
+#: data/ui/extension-row.ui:107
+msgid "Extension Details"
+msgstr "एक्सटेंशन विवरण"
+
+#: data/ui/extension-row.ui:195
+msgid "_Website"
+msgstr "वेबसाइट (_W)"
+
+#: data/ui/extension-row.ui:222
+msgid "_Settings"
+msgstr "सेटिंग्स (_S)"
+
+#: data/ui/extension-row.ui:249
+msgid "_Remove…"
+msgstr "हटाएं (_R)…"
+
+#: data/ui/extensions-window.ui:16
+msgid "Keyboard Shortcuts"
+msgstr "कुंजीपट शॉर्टकट"
+
+#: data/ui/extensions-window.ui:20
+msgid "About Extensions"
+msgstr "'एक्सटेंशन्स' का परिचय"
+
+#: data/ui/extensions-window.ui:74
+msgid "Main Menu"
+msgstr "मुख्य मेनू"
+
+#: data/ui/extensions-window.ui:83
+msgid "Search"
+msgstr "खोजें"
+
+#: data/ui/extensions-window.ui:116
+msgid "Search extensions"
+msgstr "एक्सटेंशन खोजें"
+
+#: data/ui/extensions-window.ui:133
+#, fuzzy
+msgid "_Log Out…"
+msgstr "लॉग आउट…"
+
+#: data/ui/extensions-window.ui:141
+msgid "_Extensions"
+msgstr "एक्सटेंशन (_E)"
+
+#: data/ui/extensions-window.ui:146
+msgid "More Information"
+msgstr "अधिक जानकारी"
+
+#: data/ui/extensions-window.ui:158
+msgid ""
+"Extensions can cause performance and stability issues. It is recommended to "
+"disable all extensions if you experience problems with your system."
+msgstr ""
+"एक्सटेंशन के कारण प्रदर्शन और स्थिरता संबंधी समस्याएं हो सकती हैं। यदि आप अपने सिस्टम में "
+"समस्याओं का अनुभव करते हैं तो सभी एक्सटेंशन को अक्षम करने की अनुशंसा की जाती है।"
+
+#: data/ui/extensions-window.ui:185
+msgid "User Extensions"
+msgstr "उपयोक्ता एक्सटेंशन"
+
+#: data/ui/extensions-window.ui:194
+msgid "System Extensions"
+msgstr "सिस्टम एक्सटेंशन"
+
+#: data/ui/extensions-window.ui:213
+msgid "Search Results"
+msgstr "खोज के परिणाम"
+
+#: data/ui/extensions-window.ui:227
+msgid "No Results Found"
+msgstr "कोई परिणाम नहीं मिला"
+
+#: data/ui/extensions-window.ui:228
+msgid "Try a different search"
+msgstr "भिन्न खोज का प्रयास करें"
+
+#: data/ui/extensions-window.ui:239
+msgid "No Installed Extensions"
+msgstr "कोई स्थापित एक्सटेंशन नहीं"
+
+#: data/ui/extensions-window.ui:240
+msgid ""
+"To find and add extensions, visit <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a>."
+msgstr ""
+"एक्सटेंशन खोजने और जोड़ने के लिए, <a href=\"https://"
+"extensions.gnome.org\">extensions.gnome.org</a> पर जाएं।"
+
+#: data/ui/extensions-window.ui:250
+msgid "Something’s gone wrong"
+msgstr "कुछ गलत हो गया है"
+
+#: data/ui/extensions-window.ui:251
+msgid ""
+"We’re very sorry, but it was not possible to get the list of installed "
+"extensions. Make sure you are logged into GNOME and try again."
+msgstr ""
+"हमें बहुत खेद है, लेकिन संस्थापित एक्सटेंशन की सूची प्राप्त करना संभव नहीं है। सुनिश्चित करें कि "
+"आप गनोम में लॉग इन हैं और पुन: प्रयास करें।"
+
+#: data/ui/shortcuts-dialog.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "सामान्य"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "मेनू खोलें"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Toggle Search"
+msgstr "खोज टॉगल करें"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "शॉर्टकट दिखाएं"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "बंद करें"

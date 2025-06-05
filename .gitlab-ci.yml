@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2025 Florian Müllner <fmuellner@gnome.org>
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+include:
+  - project: GNOME/citemplates
+    file: flatpak/flatpak_ci_initiative.yml
+
+stages:
+  - build
+  - deploy
+
+flatpak:
+  extends: .flatpak
+  stage: build
+  variables:
+    FLATPAK_MODULE: gnome-extensions-app
+    MANIFEST_PATH: build-aux/flatpak/org.gnome.Extensions.json
+    RUNTIME_REPO: https://sdk.gnome.org/gnome-nightly.flatpakrepo
+    APP_ID: org.gnome.Extensions.Devel
+    BUNDLE: org.gnome.Extensions.Devel.flatpak
+  dependencies: []
+
+nightly:
+  extends: .publish_nightly
+  dependencies:
+    - flatpak

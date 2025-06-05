@@ -79,3 +79,11 @@ eslint:
     name: quay.io/fedora/nodejs-22
   script:
     - tools/run-eslint.sh
+
+check-reuse:
+  stage: review
+  image:
+    name: fsfe/reuse:latest
+    entrypoint: ['']
+  script:
+    - reuse lint

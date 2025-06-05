@@ -7,10 +7,24 @@ include:
   - component: gitlab.gnome.org/GNOME/citemplates/release-service@master
     inputs:
       dist-job-name: 'flatpak'
+  - project: Infrastructure/freedesktop-ci-templates
+    file: templates/ci-fairy.yml
 
 stages:
+  - review
   - build
   - deploy
+
+.skip-git-clone:
+  variables:
+    GIT_STRATEGY: none
+
+.only-merge-requests:
+  rules:
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME =~ /^$/'
+      when: never
+    - if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+      when: on_success
 
 flatpak:
   extends: .flatpak
@@ -27,3 +41,34 @@ nightly:
   extends: .publish_nightly
   dependencies:
     - flatpak
+
+check-merge-request:
+  extends:
+    - .fdo.ci-fairy
+    - .skip-git-clone
+  stage: review
+  variables:
+    REPORT: check-merge-request-report.xml
+  script:
+    - ci-fairy check-merge-request --require-allow-collaboration --junit-xml=$REPORT
+  artifacts:
+    expire_in: 1 week
+    reports:
+      junit: $REPORT
+  rules:
+    - !reference [.only-merge-requests, rules]
+
+check-commit-log:
+  extends:
+    - .fdo.ci-fairy
+  stage: review
+  variables:
+    REPORT: commit-messages-report.xml
+  script:
+    - ci-fairy check-commits --junit-xml=$REPORT
+  artifacts:
+    expire_in: 1 week
+    reports:
+      junit: $REPORT
+  rules:
+    - !reference [.only-merge-requests, rules]

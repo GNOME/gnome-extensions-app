@@ -72,3 +72,10 @@ check-commit-log:
       junit: $REPORT
   rules:
     - !reference [.only-merge-requests, rules]
+
+eslint:
+  stage: review
+  image:
+    name: quay.io/fedora/nodejs-22
+  script:
+    - tools/run-eslint.sh

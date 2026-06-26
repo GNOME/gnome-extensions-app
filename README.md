@@ -14,15 +14,9 @@ recommend getting it from [flathub].
 </a>
 
 ## Building
-Before the project can be built stand-alone, the po directory has
-to be populated with translations (from gnome-shell).
+Like most GNOME projects, gnome-extensions-app uses the [meson] build system.
 
-To do that, simply run the included script:
-```sh
-$ ./generate-translations.sh
-```
-
-You can then build and install the project:
+You can build and install the project as follows:
 
 ```
 $ meson setup --prefix=/usr _build
@@ -40,4 +34,5 @@ License, version 2 or later. See the [COPYING][license] file for details.
 [logo]: logo.png
 [bug-tracker]: https://gitlab.gnome.org/GNOME/gnome-extensions-app/issues
 [flathub]: https://flathub.org
+[meson]: https://mesonbuild.com
 [license]: COPYING

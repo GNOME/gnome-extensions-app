@@ -38,6 +38,6 @@ gnome-extensions-app is distributed under the terms of the GNU General Public
 License, version 2 or later. See the [COPYING][license] file for details.
 
 [logo]: logo.png
-[bug-tracker]: https://gitlab.gnome.org/GNOME/gnome-shell/issues
+[bug-tracker]: https://gitlab.gnome.org/GNOME/gnome-extensions-app/issues
 [flathub]: https://flathub.org
 [license]: COPYING

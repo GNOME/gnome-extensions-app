@@ -29,9 +29,10 @@ function loadInterfaceXML(iface) {
     return null;
 }
 
-const Extension = GObject.registerClass({
-    GTypeName: 'Extension',
-    Properties: {
+const Extension = GObject.registerClass(
+class Extension extends GObject.Object {
+    static [GObject.GTypeName] = 'Extension';
+    static [GObject.properties] = {
         'uuid': GObject.ParamSpec.string(
             'uuid', null, null,
             GObject.ParamFlags.READABLE,
@@ -92,8 +93,8 @@ const Extension = GObject.registerClass({
             'is-user', null, null,
             GObject.ParamFlags.READABLE,
             false),
-    },
-}, class Extension extends GObject.Object {
+    };
+
     constructor(variant) {
         super();
         this.update(variant);
@@ -283,8 +284,9 @@ const Extension = GObject.registerClass({
 const {$gtype: TYPE_EXTENSION} = Extension;
 export {TYPE_EXTENSION as Extension};
 
-export const ExtensionManager = GObject.registerClass({
-    Properties: {
+export const ExtensionManager = GObject.registerClass(
+class ExtensionManager extends GObject.Object {
+    static [GObject.properties] = {
         'user-extensions-enabled': GObject.ParamSpec.boolean(
             'user-extensions-enabled', null, null,
             GObject.ParamFlags.READWRITE,
@@ -301,11 +303,12 @@ export const ExtensionManager = GObject.registerClass({
             'failed', null, null,
             GObject.ParamFlags.READABLE,
             false),
-    },
-    Signals: {
+    };
+
+    static [GObject.signals] = {
         'extensions-loaded': {},
-    },
-}, class ExtensionManager extends GObject.Object {
+    };
+
     constructor() {
         super();
 

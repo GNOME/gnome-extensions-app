@@ -36,8 +36,8 @@ export const ExtensionsWindow = GObject.registerClass({
         'updatesBanner',
     ],
 }, class ExtensionsWindow extends Adw.ApplicationWindow {
-    _init(params) {
-        super._init(params);
+    constructor(params) {
+        super(params);
 
         if (Config.PROFILE === 'development')
             this.add_css_class('devel');

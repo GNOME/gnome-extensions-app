@@ -22,9 +22,9 @@ import {ExtensionsWindow} from './extensionsWindow.js';
 
 var Application = GObject.registerClass(
 class Application extends Adw.Application {
-    _init() {
+    constructor() {
         GLib.set_prgname('gnome-extensions-app');
-        super._init({
+        super({
             application_id: Package.name,
             version: Package.version,
         });

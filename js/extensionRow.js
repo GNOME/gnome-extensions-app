@@ -5,26 +5,29 @@
 import Adw from 'gi://Adw?version=1';
 import Gio from 'gi://Gio';
 import GObject from 'gi://GObject';
+import Gtk from 'gi://Gtk?version=4.0';
 
 import {ExtensionState}  from './extensionUtils.js';
 import {Extension} from './extensionManager.js';
 
-export const ExtensionRow = GObject.registerClass({
-    GTypeName: 'ExtensionRow',
-    Template: 'resource:///org/gnome/Extensions/ui/extension-row.ui',
-    Properties: {
+export const ExtensionRow = GObject.registerClass(
+class ExtensionRow extends Adw.ActionRow {
+    static [GObject.GTypeName] = 'ExtensionRow';
+    static [Gtk.template] = 'resource:///org/gnome/Extensions/ui/extension-row.ui';
+    static [GObject.properties] = {
         'extension': GObject.ParamSpec.object(
             'extension', null, null,
             GObject.ParamFlags.READWRITE | GObject.ParamFlags.CONSTRUCT_ONLY,
             Extension),
-    },
-    InternalChildren: [
+    };
+
+    static [Gtk.internalChildren] = [
         'detailsPopover',
         'versionLabel',
         'switch',
         'actionsBox',
-    ],
-}, class ExtensionRow extends Adw.ActionRow {
+    ];
+
     constructor(extension) {
         super({extension});
 

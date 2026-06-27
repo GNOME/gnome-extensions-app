@@ -6,6 +6,7 @@ import Adw from 'gi://Adw?version=1';
 import GLib from 'gi://GLib';
 import Gio from 'gi://Gio';
 import GObject from 'gi://GObject';
+import Gtk from 'gi://Gtk?version=4.0';
 import Shew from 'gi://Shew';
 
 const Package = imports.package;
@@ -18,10 +19,11 @@ Gio._promisify(Adw.AlertDialog.prototype, 'choose');
 Gio._promisify(Gio.DBusConnection.prototype, 'call');
 Gio._promisify(Shew.WindowExporter.prototype, 'export');
 
-export const ExtensionsWindow = GObject.registerClass({
-    GTypeName: 'ExtensionsWindow',
-    Template: 'resource:///org/gnome/Extensions/ui/extensions-window.ui',
-    InternalChildren: [
+export const ExtensionsWindow = GObject.registerClass(
+class ExtensionsWindow extends Adw.ApplicationWindow {
+    static [GObject.GTypeName] = 'ExtensionsWindow';
+    static [Gtk.template] = 'resource:///org/gnome/Extensions/ui/extensions-window.ui';
+    static [Gtk.internalChildren] = [
         'sortModel',
         'searchFilter',
         'userListModel',
@@ -34,8 +36,8 @@ export const ExtensionsWindow = GObject.registerClass({
         'searchBar',
         'searchEntry',
         'updatesBanner',
-    ],
-}, class ExtensionsWindow extends Adw.ApplicationWindow {
+    ];
+
     constructor(params) {
         super(params);
 

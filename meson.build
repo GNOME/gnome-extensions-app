@@ -69,6 +69,10 @@ if not meson.is_subproject()
     '--type=metainfo',
     'data/metainfo/org.gnome.Extensions.metainfo.xml.in')
 
+  meson.add_dist_script('build-aux/meson/check-version.py',
+    meson.project_version(),
+    'NEWS')
+
   summary_dirs = {
     'prefix': get_option('prefix'),
     'bindir': get_option('bindir'),

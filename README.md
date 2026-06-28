@@ -12,6 +12,9 @@ used as a stand-alone project as well.
 
 Bugs should be reported to the GNOME [bug tracking system][bug-tracker].
 
+Please keep in mind that all interactions with the project should follow
+the [Code of Conduct][conduct].
+
 ## Installation
 If Extensions is not already installed on your GNOME system, we
 recommend getting it from [flathub].
@@ -40,6 +43,7 @@ License, version 2 or later. See the [COPYING][license] file for details.
 
 [logo]: logo.png
 [bug-tracker]: https://gitlab.gnome.org/GNOME/gnome-extensions-app/issues
+[conduct]: https://conduct.gnome.org
 [flathub]: https://flathub.org
 [meson]: https://mesonbuild.com
 [license]: COPYING

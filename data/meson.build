@@ -9,10 +9,9 @@ gnome.compile_resources(
   app_id + '.data',
   configure_file(
     input: base_id + '.data.gresource.xml.in',
-    output: app_id + '.data.gresource.xml',
+    output: '@BASENAME@',
     configuration: {
       'app_id': app_id,
-      'profile': '/'.join(profile.split('.')),
     },
   ),
   dependencies: [metainfo],

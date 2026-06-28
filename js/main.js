@@ -27,6 +27,7 @@ class Application extends Adw.Application {
         super({
             application_id: Package.name,
             version: Package.version,
+            resource_base_path: '/org/gnome/Extensions',
         });
 
         this.connect('window-removed', (a, window) => window.run_dispose());

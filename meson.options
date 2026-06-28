@@ -2,10 +2,6 @@
 #
 # SPDX-License-Identifier: GPL-2.0-or-later
 
-option('package_name',
-  type: 'string',
-  description: 'The gettext domain name',
-)
 option('profile',
   type: 'combo',
   choices: [

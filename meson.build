@@ -25,16 +25,8 @@ prgname = 'gnome-extensions-app'
 gnome = import('gnome')
 i18n  = import('i18n')
 
-if meson.is_subproject()
-  package_name = get_option('package_name')
-  assert(package_name != '',
-    'package_name must be specified for subproject builds')
-
-  po_dir = join_paths(meson.current_source_dir(), '../../po')
-else
-  package_name = meson.project_name()
-  po_dir = join_paths(meson.current_source_dir(), 'po')
-endif
+package_name = meson.project_name()
+po_dir = join_paths(meson.current_source_dir(), 'po')
 
 package_version = meson.project_version()
 prefix = get_option('prefix')

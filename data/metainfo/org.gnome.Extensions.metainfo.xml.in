@@ -69,15 +69,15 @@ SPDX-License-Identifier: CC0-1.0
 
   <screenshots>
     <screenshot type="default">
-      <image>https://gitlab.gnome.org/GNOME/gnome-extensions-app/data/metainfo/extensions-main.png</image>
+      <image>https://gitlab.gnome.org/GNOME/gnome-extensions-app/-/raw/main/data/metainfo/extensions-main.png</image>
       <caption>Main Window</caption>
     </screenshot>
     <screenshot>
-      <image>https://gitlab.gnome.org/GNOME/gnome-extensions-app/data/metainfo/extensions-update.png</image>
+      <image>https://gitlab.gnome.org/GNOME/gnome-extensions-app/-/raw/main/data/metainfo/extensions-update.png</image>
       <caption>Available Updates</caption>
     </screenshot>
     <screenshot>
-      <image>https://gitlab.gnome.org/GNOME/gnome-extensions-app/data/metainfo/extensions-search.png</image>
+      <image>https://gitlab.gnome.org/GNOME/gnome-extensions-app/-/raw/main/data/metainfo/extensions-search.png</image>
       <caption>Search View</caption>
     </screenshot>
   </screenshots>

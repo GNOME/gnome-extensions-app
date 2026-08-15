@@ -25,9 +25,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-extensions-app master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 18:44+0200\n"
-"PO-Revision-Date: 2026-06-08 10:27+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-extensions-app/-/"
+"work_items\n"
+"POT-Creation-Date: 2026-06-29 12:37+0000\n"
+"PO-Revision-Date: 2026-08-15 17:59+0800\n"
 "Last-Translator: lumingzh <lumingzh@qq.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -63,15 +64,15 @@ msgid ""
 "preferences and removing or disabling unwanted extensions."
 msgstr "GNOME 扩展程序可用于升级扩展，配置扩展首选项和移除、禁用不想要的扩展。"
 
-#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:72
 msgid "Main Window"
 msgstr "主窗口"
 
-#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:76
 msgid "Available Updates"
 msgstr "可用更新"
 
-#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:80
 msgid "Search View"
 msgstr "搜索视图"
 
@@ -79,59 +80,59 @@ msgstr "搜索视图"
 msgid "Configure GNOME Shell Extensions"
 msgstr "配置 GNOME Shell 扩展"
 
-#: js/extensionManager.js:241
+#: js/extensionManager.js:242
 #, javascript-format
 msgid ""
 "The installed version of this extension (%s) is incompatible with the "
 "current version of GNOME (%s). The extension has been disabled."
 msgstr "该扩展的已安装版本（%s）与当前 GNOME 版本（%s）不兼容。该扩展已禁用。"
 
-#: js/extensionManager.js:242
+#: js/extensionManager.js:243
 #, javascript-format
 msgid ""
 "The installed version of this extension is incompatible with the current "
 "version of GNOME (%s). The extension has been disabled."
 msgstr "该扩展的已安装版本与当前 GNOME 版本（%s）不兼容。该扩展已禁用。"
 
-#: js/extensionManager.js:246
+#: js/extensionManager.js:247
 msgid ""
 "An error has occurred in this extension. This could cause issues elsewhere "
 "in the system. It is recommended to turn the extension off until the error "
 "is resolved."
 msgstr ""
-"该扩展发生错误。这可能会导致系统其它地方出现问题。建议在错误解决前关闭该扩"
+"该扩展发生错误。这可能会导致系统其他地方出现问题。建议在错误解决前关闭该扩"
 "展。"
 
 #. translators: Details for an extension error
-#: js/extensionManager.js:252
+#: js/extensionManager.js:253
 msgid "Error details:"
 msgstr "错误详情："
 
-#: js/extensionRow.js:86
+#: js/extensionRow.js:89
 #, javascript-format
 msgid "Version %s"
 msgstr "版本 %s"
 
-#: js/extensionsWindow.js:112
+#: js/extensionsWindow.js:114
 #, javascript-format
 msgid "Remove “%s”?"
 msgstr "移除 “%s”？"
 
-#: js/extensionsWindow.js:113
+#: js/extensionsWindow.js:115
 msgid ""
 "If you remove the extension, you need to return to download it if you want "
 "to enable it again"
 msgstr "如果您移除该扩展，想要再次启用则需重新下载"
 
-#: js/extensionsWindow.js:116
+#: js/extensionsWindow.js:118
 msgid "_Cancel"
 msgstr "取消(_C)"
 
-#: js/extensionsWindow.js:117
+#: js/extensionsWindow.js:119
 msgid "_Remove"
 msgstr "移除(_R)"
 
-#: js/extensionsWindow.js:157
+#: js/extensionsWindow.js:159
 msgid "translator-credits"
 msgstr ""
 "eternalhui <www.eternalhui@gmail.com>, 2013\n"
@@ -151,7 +152,7 @@ msgstr ""
 "Victor_Trista <ljlzjzm@hotmail.com>, 2023\n"
 "Luke Na <narukeu@outlook.com>, 2026"
 
-#: js/extensionsWindow.js:202
+#: js/extensionsWindow.js:204
 #, javascript-format
 msgid "%d extension will be updated on next login."
 msgid_plural "%d extensions will be updated on next login."

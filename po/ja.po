@@ -19,9 +19,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-extensions-app main\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 18:44+0200\n"
-"PO-Revision-Date: 2026-05-23 09:34+0900\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-extensions-app/-/"
+"work_items\n"
+"POT-Creation-Date: 2026-06-29 12:37+0000\n"
+"PO-Revision-Date: 2026-10-12 21:33+0900\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.gnome.org/teams/ja/>\n"
 "Language: ja\n"
@@ -50,18 +51,18 @@ msgid ""
 "GNOME Extensions handles updating extensions, configuring extension "
 "preferences and removing or disabling unwanted extensions."
 msgstr ""
-"“拡張機能”は GNOME Shell 拡張機能の設定、更新、削除、不要な拡張機能の無効化を"
-"行うことができます。"
+"“拡張機能”は GNOME Shell 拡張機能の設定、更新、削除、不要な拡張機能の無効化"
+"を行うことができます。"
 
-#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:72
 msgid "Main Window"
 msgstr "メインウィンドウ"
 
-#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:76
 msgid "Available Updates"
 msgstr "アップデートがあります"
 
-#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:80
 msgid "Search View"
 msgstr "検索画面"
 
@@ -69,16 +70,16 @@ msgstr "検索画面"
 msgid "Configure GNOME Shell Extensions"
 msgstr "GNOME Shell 拡張機能を設定"
 
-#: js/extensionManager.js:241
+#: js/extensionManager.js:242
 #, javascript-format
 msgid ""
 "The installed version of this extension (%s) is incompatible with the "
 "current version of GNOME (%s). The extension has been disabled."
 msgstr ""
-"インストールされているこの拡張機能のバージョン (%s) は、現在の GNOME バージョ"
-"ン (%s) と互換性がありません。拡張機能は無効化されました。"
+"インストールされているこの拡張機能のバージョン (%s) は、現在の GNOME バー"
+"ジョン (%s) と互換性がありません。拡張機能は無効化されました。"
 
-#: js/extensionManager.js:242
+#: js/extensionManager.js:243
 #, javascript-format
 msgid ""
 "The installed version of this extension is incompatible with the current "
@@ -87,7 +88,7 @@ msgstr ""
 "インストールされているこの拡張機能のバージョンは、現在の GNOME バージョン "
 "(%s) と互換性がありません。拡張機能は無効化されました。"
 
-#: js/extensionManager.js:246
+#: js/extensionManager.js:247
 msgid ""
 "An error has occurred in this extension. This could cause issues elsewhere "
 "in the system. It is recommended to turn the extension off until the error "
@@ -98,40 +99,41 @@ msgstr ""
 "ます。"
 
 #. translators: Details for an extension error
-#: js/extensionManager.js:252
+#: js/extensionManager.js:253
 msgid "Error details:"
 msgstr "エラーの詳細:"
 
-#: js/extensionRow.js:86
+#: js/extensionRow.js:89
 #, javascript-format
 msgid "Version %s"
 msgstr "バージョン %s"
 
-#: js/extensionsWindow.js:112
+#: js/extensionsWindow.js:114
 #, javascript-format
 msgid "Remove “%s”?"
 msgstr "“%s” を削除しますか?"
 
-#: js/extensionsWindow.js:113
+#: js/extensionsWindow.js:115
 msgid ""
 "If you remove the extension, you need to return to download it if you want "
 "to enable it again"
 msgstr ""
 "拡張機能を削除した場合、再度有効にするにはダウンロードし直す必要があります"
 
-#: js/extensionsWindow.js:116
+#: js/extensionsWindow.js:118
 msgid "_Cancel"
 msgstr "キャンセル(_C)"
 
-#: js/extensionsWindow.js:117
+#: js/extensionsWindow.js:119
 msgid "_Remove"
 msgstr "削除(_R)"
 
-#: js/extensionsWindow.js:157
+#: js/extensionsWindow.js:159
 msgid "translator-credits"
 msgstr ""
 "Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "小山田 純 <oyamadajun@outlook.jp>\n"
+"Makoto Sakaguchi <ycco34vx@gmail.com>\n"
 "Hideki Yamane <henrich@debian.org>\n"
 "Ikuya Awashiro <ikuya@fruitsbasket.info>\n"
 "IWAI, Masaharu <iwaim.sub@gmail.com>\n"
@@ -140,20 +142,20 @@ msgstr ""
 "Nishio Futoshi <fut_nis@d3.dion.ne.jp>\n"
 "sicklylife <translation@sicklylife.jp>\n"
 "Takanori MATSUURA <t.matsuu@gmail.com>\n"
-"Kusano Takayuki <https://bsky.app/profile/tkusano.jp>\n"
+"Kusano Takayuki https://bsky.app/profile/tkusano.jp\n"
 "Yoji TOYODA <bsyamato@sea.plala.or.jp>\n"
 "Seiji Iizuka <seiji@iizuka.dev>\n"
 "\n"
 "Launchpad Contributions:\n"
 "  Jiro Matsuzawa https://launchpad.net/~jmatsuzawa\n"
 "  Mitsuya Shibata https://launchpad.net/~cosmos-door\n"
-"  Shinichirou Yamada https://launchpad.net/~yamada-strong-yamada-nice-64bit\n"
+"  Shinichirou Yamada https://launchpad.net/~yamada-strong-yamada-"
+"nice-64bit\n"
 "  Shushi Kurose https://launchpad.net/~kuromabo\n"
 "  id:sicklylife https://launchpad.net/~sicklylife\n"
-"  sujiniku https://launchpad.net/~sujinikusityuu\n"
-"Makoto Sakaguchi <ycco34vx@gmail.com>"
+"  sujiniku https://launchpad.net/~sujinikusityuu"
 
-#: js/extensionsWindow.js:202
+#: js/extensionsWindow.js:204
 #, javascript-format
 msgid "%d extension will be updated on next login."
 msgid_plural "%d extensions will be updated on next login."
@@ -244,11 +246,11 @@ msgstr "検索結果"
 
 #: data/ui/extensions-window.ui:227
 msgid "No Results Found"
-msgstr "検索結果がありません"
+msgstr "結果がありません"
 
 #: data/ui/extensions-window.ui:228
 msgid "Try a different search"
-msgstr "別の検索を試してください"
+msgstr "他のキーワードを試してください"
 
 #: data/ui/extensions-window.ui:239
 msgid "No Installed Extensions"

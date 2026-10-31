@@ -10,9 +10,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-extensions-app\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 18:44+0200\n"
-"PO-Revision-Date: 2026-06-17 10:22+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-extensions-app/-/"
+"work_items\n"
+"POT-Creation-Date: 2026-06-29 12:37+0000\n"
+"PO-Revision-Date: 2026-09-22 19:03+0200\n"
 "Last-Translator: Victoria Niedzielska <victorian@gnome.org>\n"
 "Language-Team: Polish <https://l10n.gnome.org/teams/pl/>\n"
 "Language: pl\n"
@@ -46,15 +47,15 @@ msgstr ""
 "Ta aplikacja obsługuje aktualizowanie, konfigurowanie preferencji oraz "
 "usuwanie i wyłączanie niechcianych rozszerzeń."
 
-#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:73
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:72
 msgid "Main Window"
 msgstr "Okno główne"
 
-#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:77
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:76
 msgid "Available Updates"
 msgstr "Dostępne aktualizacje"
 
-#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:81
+#: data/metainfo/org.gnome.Extensions.metainfo.xml.in:80
 msgid "Search View"
 msgstr "Widok wyszukiwania"
 
@@ -62,7 +63,7 @@ msgstr "Widok wyszukiwania"
 msgid "Configure GNOME Shell Extensions"
 msgstr "Konfiguracja rozszerzeń powłoki GNOME"
 
-#: js/extensionManager.js:241
+#: js/extensionManager.js:242
 #, javascript-format
 msgid ""
 "The installed version of this extension (%s) is incompatible with the "
@@ -71,7 +72,7 @@ msgstr ""
 "Zainstalowana wersja tego rozszerzenia (%s) jest niezgodna z obecną wersją "
 "środowiska GNOME (%s). Rozszerzenie zostało wyłączone."
 
-#: js/extensionManager.js:242
+#: js/extensionManager.js:243
 #, javascript-format
 msgid ""
 "The installed version of this extension is incompatible with the current "
@@ -80,7 +81,7 @@ msgstr ""
 "Zainstalowana wersja tego rozszerzenia jest niezgodna z obecną wersją "
 "środowiska GNOME (%s). Rozszerzenie zostało wyłączone."
 
-#: js/extensionManager.js:246
+#: js/extensionManager.js:247
 msgid ""
 "An error has occurred in this extension. This could cause issues elsewhere "
 "in the system. It is recommended to turn the extension off until the error "
@@ -90,21 +91,21 @@ msgstr ""
 "systemu. Zalecane jest wyłączenie rozszerzenia do czasu rozwiązania błędu."
 
 #. translators: Details for an extension error
-#: js/extensionManager.js:252
+#: js/extensionManager.js:253
 msgid "Error details:"
 msgstr "Informacje o błędzie:"
 
-#: js/extensionRow.js:86
+#: js/extensionRow.js:89
 #, javascript-format
 msgid "Version %s"
 msgstr "Wersja %s"
 
-#: js/extensionsWindow.js:112
+#: js/extensionsWindow.js:114
 #, javascript-format
 msgid "Remove “%s”?"
 msgstr "Usunąć rozszerzenie „%s”?"
 
-#: js/extensionsWindow.js:113
+#: js/extensionsWindow.js:115
 msgid ""
 "If you remove the extension, you need to return to download it if you want "
 "to enable it again"
@@ -112,15 +113,15 @@ msgstr ""
 "Po usunięciu rozszerzenia jego ponowne włączenie będzie wymagało pobrania od "
 "nowa"
 
-#: js/extensionsWindow.js:116
+#: js/extensionsWindow.js:118
 msgid "_Cancel"
 msgstr "_Anuluj"
 
-#: js/extensionsWindow.js:117
+#: js/extensionsWindow.js:119
 msgid "_Remove"
 msgstr "_Usuń"
 
-#: js/extensionsWindow.js:157
+#: js/extensionsWindow.js:159
 msgid "translator-credits"
 msgstr ""
 "Piotr Drąg <piotrdrag@gmail.com>, 2009-2025\n"
@@ -129,7 +130,7 @@ msgstr ""
 "Aviary.pl <community-poland@mozilla.org>, 2009-2025\n"
 "Victoria Niedzielska <victorian@gnome.org>, 2026"
 
-#: js/extensionsWindow.js:202
+#: js/extensionsWindow.js:204
 #, javascript-format
 msgid "%d extension will be updated on next login."
 msgid_plural "%d extensions will be updated on next login."
@@ -166,7 +167,7 @@ msgstr "_Ustawienia"
 
 #: data/ui/extension-row.ui:249
 msgid "_Remove…"
-msgstr "_Usuń…"
+msgstr "U_suń…"
 
 #: data/ui/extensions-window.ui:16
 msgid "Keyboard Shortcuts"
